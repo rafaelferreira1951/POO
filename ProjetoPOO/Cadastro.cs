@@ -46,5 +46,12 @@ namespace ProjetoPOO
                 txtEmail.Clear();
             }
         }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            Login blogin = new Login();
+            blogin.Show();
+            this.Hide();
+        }
     }
 }

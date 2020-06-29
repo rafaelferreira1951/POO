@@ -21,9 +21,10 @@ namespace ProjetoPOO
         {
             Principal principal = new Principal();
 
+
+
             String nomeUsuario = txtNomeUser.Text;
             String senha = txtSenha.Text;
-
             if (nomeUsuario == "")
             {
                 MessageBox.Show("PREENCHA TODOS OS CAMPOS CRIATURA, ASSIM NÃO DA !!!!");
@@ -51,13 +52,21 @@ namespace ProjetoPOO
         private void Button3_Click(object sender, EventArgs e)
         {
             Cadastro cadastro = new Cadastro();
-            cadastro.ShowDialog();
+            cadastro.Show();
+            this.Hide();
+             
         }
 
         private void Button4_Click(object sender, EventArgs e)
         {
             CadastroMotoboy cadastromotoboy = new CadastroMotoboy();
-            cadastromotoboy.ShowDialog();
+            cadastromotoboy.Show();
+            this.Hide();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
