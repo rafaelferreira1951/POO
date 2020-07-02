@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_projeto_p_o_o_1_1_chat" kind="class" prot="public">
+    <compoundname>ProjetoPOO::Chat</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_chat_1ade0c53667c1f5001192d0b73dee14268" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer ProjetoPOO.Chat.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Chat.Designer.cs" line="8" column="1" bodyfile="C:/POO/ProjetoPOO/Chat.Designer.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_projeto_p_o_o_1_1_chat_1aea675406e8f602fa1b54a219fb3316ce" compoundref="_chat_8_designer_8cs" startline="14" endline="21">ProjetoPOO.Chat.Dispose</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_chat_1a2ef6fe5b868efac6a24f7ccfe823246f" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ProjetoPOO.Chat.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Chat.Designer.cs" line="89" column="1" bodyfile="C:/POO/ProjetoPOO/Chat.Designer.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_chat_1a3a0a02857049e535de42b245f60819d2" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox ProjetoPOO.Chat.textBox1</definition>
+        <argsstring></argsstring>
+        <name>textBox1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Chat.Designer.cs" line="90" column="1" bodyfile="C:/POO/ProjetoPOO/Chat.Designer.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_chat_1ad979b5194e5789772e053f8893145fc1" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox ProjetoPOO.Chat.textBox2</definition>
+        <argsstring></argsstring>
+        <name>textBox2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Chat.Designer.cs" line="91" column="1" bodyfile="C:/POO/ProjetoPOO/Chat.Designer.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_chat_1adc0fdd53d076a3bc63079442a342618c" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ProjetoPOO.Chat.button1</definition>
+        <argsstring></argsstring>
+        <name>button1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Chat.Designer.cs" line="92" column="1" bodyfile="C:/POO/ProjetoPOO/Chat.Designer.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_projeto_p_o_o_1_1_chat_1a9a9d58597c0993fa70ca501c01925510" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ProjetoPOO.Chat.Chat</definition>
+        <argsstring>()</argsstring>
+        <name>Chat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Chat.cs" line="15" column="1" bodyfile="C:/POO/ProjetoPOO/Chat.cs" bodystart="15" bodyend="18"/>
+        <references refid="class_projeto_p_o_o_1_1_chat_1a6edf4d90db94b69e826c47bb4b49c74c" compoundref="_chat_8_designer_8cs" startline="29" endline="85">ProjetoPOO.Chat.InitializeComponent</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_projeto_p_o_o_1_1_chat_1a1c589aaed811eaa871282aae2ab504aa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProjetoPOO.Chat.Button1_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Button1_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Chat.cs" line="20" column="1" bodyfile="C:/POO/ProjetoPOO/Chat.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projeto_p_o_o_1_1_chat_1a6edf4d90db94b69e826c47bb4b49c74c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProjetoPOO.Chat.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Chat.Designer.cs" line="29" column="1" bodyfile="C:/POO/ProjetoPOO/Chat.Designer.cs" bodystart="29" bodyend="85"/>
+        <referencedby refid="class_projeto_p_o_o_1_1_chat_1a9a9d58597c0993fa70ca501c01925510" compoundref="_chat_8cs" startline="15" endline="18">ProjetoPOO.Chat.Chat</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_projeto_p_o_o_1_1_chat_1aea675406e8f602fa1b54a219fb3316ce" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ProjetoPOO.Chat.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Chat.Designer.cs" line="14" column="1" bodyfile="C:/POO/ProjetoPOO/Chat.Designer.cs" bodystart="14" bodyend="21"/>
+        <references refid="class_projeto_p_o_o_1_1_chat_1ade0c53667c1f5001192d0b73dee14268" compoundref="_chat_8_designer_8cs" startline="8">ProjetoPOO.Chat.components</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="15">
+        <label>ProjetoPOO.Chat</label>
+        <link refid="class_projeto_p_o_o_1_1_chat"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>Form</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="17">
+        <label>ProjetoPOO.Chat</label>
+        <link refid="class_projeto_p_o_o_1_1_chat"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+        <childnode refid="19" relation="usage">
+          <edgelabel>label1</edgelabel>
+          <edgelabel>components</edgelabel>
+          <edgelabel>button1</edgelabel>
+          <edgelabel>textBox1</edgelabel>
+          <edgelabel>textBox2</edgelabel>
+        </childnode>
+      </node>
+      <node id="18">
+        <label>Form</label>
+      </node>
+      <node id="19">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/POO/ProjetoPOO/Chat.cs" line="14" column="1" bodyfile="C:/POO/ProjetoPOO/Chat.cs" bodystart="13" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_projeto_p_o_o_1_1_chat_1adc0fdd53d076a3bc63079442a342618c" prot="private" virt="non-virtual"><scope>ProjetoPOO::Chat</scope><name>button1</name></member>
+      <member refid="class_projeto_p_o_o_1_1_chat_1a1c589aaed811eaa871282aae2ab504aa" prot="private" virt="non-virtual"><scope>ProjetoPOO::Chat</scope><name>Button1_Click</name></member>
+      <member refid="class_projeto_p_o_o_1_1_chat_1a9a9d58597c0993fa70ca501c01925510" prot="public" virt="non-virtual"><scope>ProjetoPOO::Chat</scope><name>Chat</name></member>
+      <member refid="class_projeto_p_o_o_1_1_chat_1ade0c53667c1f5001192d0b73dee14268" prot="private" virt="non-virtual"><scope>ProjetoPOO::Chat</scope><name>components</name></member>
+      <member refid="class_projeto_p_o_o_1_1_chat_1aea675406e8f602fa1b54a219fb3316ce" prot="protected" virt="non-virtual"><scope>ProjetoPOO::Chat</scope><name>Dispose</name></member>
+      <member refid="class_projeto_p_o_o_1_1_chat_1a6edf4d90db94b69e826c47bb4b49c74c" prot="private" virt="non-virtual"><scope>ProjetoPOO::Chat</scope><name>InitializeComponent</name></member>
+      <member refid="class_projeto_p_o_o_1_1_chat_1a2ef6fe5b868efac6a24f7ccfe823246f" prot="private" virt="non-virtual"><scope>ProjetoPOO::Chat</scope><name>label1</name></member>
+      <member refid="class_projeto_p_o_o_1_1_chat_1a3a0a02857049e535de42b245f60819d2" prot="private" virt="non-virtual"><scope>ProjetoPOO::Chat</scope><name>textBox1</name></member>
+      <member refid="class_projeto_p_o_o_1_1_chat_1ad979b5194e5789772e053f8893145fc1" prot="private" virt="non-virtual"><scope>ProjetoPOO::Chat</scope><name>textBox2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_projeto_p_o_o_1_1_login" kind="class" prot="public">
+    <compoundname>ProjetoPOO::Login</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_login_1af90ece3022b5b4ce08c6d55da764ae5e" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer ProjetoPOO.Login.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Login.Designer.cs" line="8" column="1" bodyfile="C:/POO/ProjetoPOO/Login.Designer.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_projeto_p_o_o_1_1_login_1a29ccc3e5b389e5a821e039f268692413" compoundref="_login_8_designer_8cs" startline="14" endline="21">ProjetoPOO.Login.Dispose</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_login_1a212cdec4f130692003e480fff148abd9" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.PictureBox</type>
+        <definition>System.Windows.Forms.PictureBox ProjetoPOO.Login.pictureBox1</definition>
+        <argsstring></argsstring>
+        <name>pictureBox1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Login.Designer.cs" line="160" column="1" bodyfile="C:/POO/ProjetoPOO/Login.Designer.cs" bodystart="160" bodyend="-1"/>
+        <referencedby refid="class_projeto_p_o_o_1_1_login_1aea22e6f312af10cf8fe1c1a4844ede8d" compoundref="_login_8_designer_8cs" startline="29" endline="156">ProjetoPOO.Login.InitializeComponent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_login_1a8c06b035729f07a9cccfa1022dfe856e" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ProjetoPOO.Login.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Login.Designer.cs" line="161" column="1" bodyfile="C:/POO/ProjetoPOO/Login.Designer.cs" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_login_1ad33acae6dd8c7f16123938e66ebcef68" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ProjetoPOO.Login.label2</definition>
+        <argsstring></argsstring>
+        <name>label2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Login.Designer.cs" line="162" column="1" bodyfile="C:/POO/ProjetoPOO/Login.Designer.cs" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_login_1ab18d227285fc1564072886befd2e74cf" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ProjetoPOO.Login.label3</definition>
+        <argsstring></argsstring>
+        <name>label3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Login.Designer.cs" line="163" column="1" bodyfile="C:/POO/ProjetoPOO/Login.Designer.cs" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_login_1ad38cc8c0118fedd5d162387b1d0439fb" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox ProjetoPOO.Login.txtSenha</definition>
+        <argsstring></argsstring>
+        <name>txtSenha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Login.Designer.cs" line="164" column="1" bodyfile="C:/POO/ProjetoPOO/Login.Designer.cs" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_login_1aec7b0d1aec8168d4d4d282eaf03dd287" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox ProjetoPOO.Login.txtNomeUser</definition>
+        <argsstring></argsstring>
+        <name>txtNomeUser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Login.Designer.cs" line="165" column="1" bodyfile="C:/POO/ProjetoPOO/Login.Designer.cs" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_login_1a8feee96c4d2e5570f2f09e298809e539" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ProjetoPOO.Login.btnEntrar</definition>
+        <argsstring></argsstring>
+        <name>btnEntrar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Login.Designer.cs" line="166" column="1" bodyfile="C:/POO/ProjetoPOO/Login.Designer.cs" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_login_1a80be59576afd82d20913f87391e63860" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ProjetoPOO.Login.button3</definition>
+        <argsstring></argsstring>
+        <name>button3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Login.Designer.cs" line="167" column="1" bodyfile="C:/POO/ProjetoPOO/Login.Designer.cs" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_login_1aa175200d065bae69ac26eb3aac4916c2" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ProjetoPOO.Login.button4</definition>
+        <argsstring></argsstring>
+        <name>button4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Login.Designer.cs" line="168" column="1" bodyfile="C:/POO/ProjetoPOO/Login.Designer.cs" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_projeto_p_o_o_1_1_login_1ab0ae2dd75f4efc919e34a1c79b7b7c5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ProjetoPOO.Login.Login</definition>
+        <argsstring>()</argsstring>
+        <name>Login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Login.cs" line="15" column="1" bodyfile="C:/POO/ProjetoPOO/Login.cs" bodystart="15" bodyend="18"/>
+        <references refid="class_projeto_p_o_o_1_1_login_1aea22e6f312af10cf8fe1c1a4844ede8d" compoundref="_login_8_designer_8cs" startline="29" endline="156">ProjetoPOO.Login.InitializeComponent</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_projeto_p_o_o_1_1_login_1a68b1cf6ec9c73d5736612c2ba53a008a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProjetoPOO.Login.Button2_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Button2_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Login.cs" line="20" column="1" bodyfile="C:/POO/ProjetoPOO/Login.cs" bodystart="20" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projeto_p_o_o_1_1_login_1ada83e551754644bdd24d82cd88585f94" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProjetoPOO.Login.Button3_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Button3_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Login.cs" line="52" column="1" bodyfile="C:/POO/ProjetoPOO/Login.cs" bodystart="52" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projeto_p_o_o_1_1_login_1a6a84c943b011d924987f8ae1598bb3e4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProjetoPOO.Login.Button4_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Button4_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Login.cs" line="60" column="1" bodyfile="C:/POO/ProjetoPOO/Login.cs" bodystart="60" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projeto_p_o_o_1_1_login_1a524496cf64e1dd75acb279e8fd33d07a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProjetoPOO.Login.Login_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Login_Load</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Login.cs" line="67" column="1" bodyfile="C:/POO/ProjetoPOO/Login.cs" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projeto_p_o_o_1_1_login_1aea22e6f312af10cf8fe1c1a4844ede8d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProjetoPOO.Login.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Login.Designer.cs" line="29" column="1" bodyfile="C:/POO/ProjetoPOO/Login.Designer.cs" bodystart="29" bodyend="156"/>
+        <references refid="class_projeto_p_o_o_1_1_login_1a212cdec4f130692003e480fff148abd9" compoundref="_login_8_designer_8cs" startline="160">ProjetoPOO.Login.pictureBox1</references>
+        <referencedby refid="class_projeto_p_o_o_1_1_login_1ab0ae2dd75f4efc919e34a1c79b7b7c5f" compoundref="_login_8cs" startline="15" endline="18">ProjetoPOO.Login.Login</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_projeto_p_o_o_1_1_login_1a29ccc3e5b389e5a821e039f268692413" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ProjetoPOO.Login.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Login.Designer.cs" line="14" column="1" bodyfile="C:/POO/ProjetoPOO/Login.Designer.cs" bodystart="14" bodyend="21"/>
+        <references refid="class_projeto_p_o_o_1_1_login_1af90ece3022b5b4ce08c6d55da764ae5e" compoundref="_login_8_designer_8cs" startline="8">ProjetoPOO.Login.components</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="23">
+        <label>Form</label>
+      </node>
+      <node id="22">
+        <label>ProjetoPOO.Login</label>
+        <link refid="class_projeto_p_o_o_1_1_login"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="25">
+        <label>Form</label>
+      </node>
+      <node id="26">
+        <label>System</label>
+      </node>
+      <node id="24">
+        <label>ProjetoPOO.Login</label>
+        <link refid="class_projeto_p_o_o_1_1_login"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+        <childnode refid="26" relation="usage">
+          <edgelabel>button4</edgelabel>
+          <edgelabel>pictureBox1</edgelabel>
+          <edgelabel>label1</edgelabel>
+          <edgelabel>txtSenha</edgelabel>
+          <edgelabel>label2</edgelabel>
+          <edgelabel>label3</edgelabel>
+          <edgelabel>components</edgelabel>
+          <edgelabel>txtNomeUser</edgelabel>
+          <edgelabel>button3</edgelabel>
+          <edgelabel>btnEntrar</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/POO/ProjetoPOO/Login.cs" line="14" column="1" bodyfile="C:/POO/ProjetoPOO/Login.cs" bodystart="13" bodyend="71"/>
+    <listofallmembers>
+      <member refid="class_projeto_p_o_o_1_1_login_1a8feee96c4d2e5570f2f09e298809e539" prot="private" virt="non-virtual"><scope>ProjetoPOO::Login</scope><name>btnEntrar</name></member>
+      <member refid="class_projeto_p_o_o_1_1_login_1a68b1cf6ec9c73d5736612c2ba53a008a" prot="private" virt="non-virtual"><scope>ProjetoPOO::Login</scope><name>Button2_Click</name></member>
+      <member refid="class_projeto_p_o_o_1_1_login_1a80be59576afd82d20913f87391e63860" prot="private" virt="non-virtual"><scope>ProjetoPOO::Login</scope><name>button3</name></member>
+      <member refid="class_projeto_p_o_o_1_1_login_1ada83e551754644bdd24d82cd88585f94" prot="private" virt="non-virtual"><scope>ProjetoPOO::Login</scope><name>Button3_Click</name></member>
+      <member refid="class_projeto_p_o_o_1_1_login_1aa175200d065bae69ac26eb3aac4916c2" prot="private" virt="non-virtual"><scope>ProjetoPOO::Login</scope><name>button4</name></member>
+      <member refid="class_projeto_p_o_o_1_1_login_1a6a84c943b011d924987f8ae1598bb3e4" prot="private" virt="non-virtual"><scope>ProjetoPOO::Login</scope><name>Button4_Click</name></member>
+      <member refid="class_projeto_p_o_o_1_1_login_1af90ece3022b5b4ce08c6d55da764ae5e" prot="private" virt="non-virtual"><scope>ProjetoPOO::Login</scope><name>components</name></member>
+      <member refid="class_projeto_p_o_o_1_1_login_1a29ccc3e5b389e5a821e039f268692413" prot="protected" virt="non-virtual"><scope>ProjetoPOO::Login</scope><name>Dispose</name></member>
+      <member refid="class_projeto_p_o_o_1_1_login_1aea22e6f312af10cf8fe1c1a4844ede8d" prot="private" virt="non-virtual"><scope>ProjetoPOO::Login</scope><name>InitializeComponent</name></member>
+      <member refid="class_projeto_p_o_o_1_1_login_1a8c06b035729f07a9cccfa1022dfe856e" prot="private" virt="non-virtual"><scope>ProjetoPOO::Login</scope><name>label1</name></member>
+      <member refid="class_projeto_p_o_o_1_1_login_1ad33acae6dd8c7f16123938e66ebcef68" prot="private" virt="non-virtual"><scope>ProjetoPOO::Login</scope><name>label2</name></member>
+      <member refid="class_projeto_p_o_o_1_1_login_1ab18d227285fc1564072886befd2e74cf" prot="private" virt="non-virtual"><scope>ProjetoPOO::Login</scope><name>label3</name></member>
+      <member refid="class_projeto_p_o_o_1_1_login_1ab0ae2dd75f4efc919e34a1c79b7b7c5f" prot="public" virt="non-virtual"><scope>ProjetoPOO::Login</scope><name>Login</name></member>
+      <member refid="class_projeto_p_o_o_1_1_login_1a524496cf64e1dd75acb279e8fd33d07a" prot="private" virt="non-virtual"><scope>ProjetoPOO::Login</scope><name>Login_Load</name></member>
+      <member refid="class_projeto_p_o_o_1_1_login_1a212cdec4f130692003e480fff148abd9" prot="private" virt="non-virtual"><scope>ProjetoPOO::Login</scope><name>pictureBox1</name></member>
+      <member refid="class_projeto_p_o_o_1_1_login_1aec7b0d1aec8168d4d4d282eaf03dd287" prot="private" virt="non-virtual"><scope>ProjetoPOO::Login</scope><name>txtNomeUser</name></member>
+      <member refid="class_projeto_p_o_o_1_1_login_1ad38cc8c0118fedd5d162387b1d0439fb" prot="private" virt="non-virtual"><scope>ProjetoPOO::Login</scope><name>txtSenha</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

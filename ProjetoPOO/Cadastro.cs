@@ -7,11 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data;
+using MySql.Data.MySqlClient;
 
 namespace ProjetoPOO
 {
     public partial class Cadastro : Form
     {
+        private MySqlConnection connection;
+
         public Cadastro()
         {
             InitializeComponent();
@@ -29,21 +33,35 @@ namespace ProjetoPOO
 
         private void Button2_Click(object sender, EventArgs e)
         {
+
+            Principal principal = new Principal();
+            String endereco = txtEndereco.Text;
             String nomeUsuario = txtNomeUser.Text;
             String senha = txtSenha.Text;
             String email = txtEmail.Text;
+            String cel = txtCel.Text;
 
-            if (nomeUsuario == "" || senha == "" || email =="")
+            if (nomeUsuario == "" || senha == "" || email == "" || endereco == "")
             {
-                MessageBox.Show("PREENCHA TODOS OS CAMPOS CRIATURA, ASSIM NÃO DA !!!!");
+                MessageBox.Show("Por favor, Preencha os campos");
             }
-
             else
             {
-                MessageBox.Show("CADASTRADO COM SUCESSO");
+                MessageBox.Show("Cadastrado com Sucesso");
                 txtNomeUser.Clear();
                 txtSenha.Clear();
                 txtEmail.Clear();
+                txtEndereco.Clear();
+
+                MySqlCommand inserir = new MySqlCommand("INSERT INTO cliente (email, login, senha, endereco, celular) VALUES (@email, @User, @Pass, @Ende, @cel ", connection);
+                inserir.Parameters.AddWithValue("@email", txtEmail);
+                inserir.Parameters.AddWithValue("@User", txtNomeUser);
+                inserir.Parameters.AddWithValue("@Pass", txtSenha);
+                inserir.Parameters.AddWithValue("@Ende", txtEndereco);
+                inserir.Parameters.AddWithValue("@cel", txtCel);
+                inserir.ExecuteNonQuery();
+                principal.ShowDialog();
+                connection.Close();
             }
         }
 
@@ -52,6 +70,11 @@ namespace ProjetoPOO
             Login blogin = new Login();
             blogin.Show();
             this.Hide();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

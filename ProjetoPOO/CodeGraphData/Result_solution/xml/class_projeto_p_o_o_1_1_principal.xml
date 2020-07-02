@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_projeto_p_o_o_1_1_principal" kind="class" prot="public">
+    <compoundname>ProjetoPOO::Principal</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_principal_1a6917aad13356e71c9df27d6935087618" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer ProjetoPOO.Principal.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Principal.Designer.cs" line="8" column="1" bodyfile="C:/POO/ProjetoPOO/Principal.Designer.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_projeto_p_o_o_1_1_principal_1a5737f633fe03d95a8bb26cdde5408975" compoundref="_principal_8_designer_8cs" startline="14" endline="21">ProjetoPOO.Principal.Dispose</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_principal_1acd7741f5569c25032914ed50b243acba" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.MenuStrip</type>
+        <definition>System.Windows.Forms.MenuStrip ProjetoPOO.Principal.menuStrip1</definition>
+        <argsstring></argsstring>
+        <name>menuStrip1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Principal.Designer.cs" line="88" column="1" bodyfile="C:/POO/ProjetoPOO/Principal.Designer.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_principal_1a6d83988f2db63188ffa83ee2f34b394b" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ToolStripMenuItem</type>
+        <definition>System.Windows.Forms.ToolStripMenuItem ProjetoPOO.Principal.pagamentoToolStripMenuItem</definition>
+        <argsstring></argsstring>
+        <name>pagamentoToolStripMenuItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Principal.Designer.cs" line="89" column="1" bodyfile="C:/POO/ProjetoPOO/Principal.Designer.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_principal_1a4b24aa79aca1a06c901e00d778d4aa57" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ToolStripMenuItem</type>
+        <definition>System.Windows.Forms.ToolStripMenuItem ProjetoPOO.Principal.adicionarCartãoToolStripMenuItem</definition>
+        <argsstring></argsstring>
+        <name>adicionarCartãoToolStripMenuItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Principal.Designer.cs" line="90" column="1" bodyfile="C:/POO/ProjetoPOO/Principal.Designer.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_projeto_p_o_o_1_1_principal_1a33a1d9420d3d3994dd891d63c6c7ac88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ProjetoPOO.Principal.Principal</definition>
+        <argsstring>()</argsstring>
+        <name>Principal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Principal.cs" line="15" column="1" bodyfile="C:/POO/ProjetoPOO/Principal.cs" bodystart="15" bodyend="18"/>
+        <references refid="class_projeto_p_o_o_1_1_principal_1a9c381ff439e6fc32e946d543b3384cf2" compoundref="_principal_8_designer_8cs" startline="29" endline="84">ProjetoPOO.Principal.InitializeComponent</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_projeto_p_o_o_1_1_principal_1aec9cbf263e878604e429e39e8751810f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProjetoPOO.Principal.AdicionarCartãoToolStripMenuItem_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>AdicionarCartãoToolStripMenuItem_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Principal.cs" line="20" column="1" bodyfile="C:/POO/ProjetoPOO/Principal.cs" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projeto_p_o_o_1_1_principal_1a9c381ff439e6fc32e946d543b3384cf2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProjetoPOO.Principal.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Principal.Designer.cs" line="29" column="1" bodyfile="C:/POO/ProjetoPOO/Principal.Designer.cs" bodystart="29" bodyend="84"/>
+        <referencedby refid="class_projeto_p_o_o_1_1_principal_1a33a1d9420d3d3994dd891d63c6c7ac88" compoundref="_principal_8cs" startline="15" endline="18">ProjetoPOO.Principal.Principal</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_projeto_p_o_o_1_1_principal_1a5737f633fe03d95a8bb26cdde5408975" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ProjetoPOO.Principal.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Principal.Designer.cs" line="14" column="1" bodyfile="C:/POO/ProjetoPOO/Principal.Designer.cs" bodystart="14" bodyend="21"/>
+        <references refid="class_projeto_p_o_o_1_1_principal_1a6917aad13356e71c9df27d6935087618" compoundref="_principal_8_designer_8cs" startline="8">ProjetoPOO.Principal.components</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="33">
+        <label>Form</label>
+      </node>
+      <node id="32">
+        <label>ProjetoPOO.Principal</label>
+        <link refid="class_projeto_p_o_o_1_1_principal"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="35">
+        <label>Form</label>
+      </node>
+      <node id="34">
+        <label>ProjetoPOO.Principal</label>
+        <link refid="class_projeto_p_o_o_1_1_principal"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+        <childnode refid="36" relation="usage">
+          <edgelabel>pagamentoToolStripMenuItem</edgelabel>
+          <edgelabel>adicionarCartãoToolStripMenuItem</edgelabel>
+          <edgelabel>menuStrip1</edgelabel>
+          <edgelabel>components</edgelabel>
+        </childnode>
+      </node>
+      <node id="36">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/POO/ProjetoPOO/Principal.cs" line="14" column="1" bodyfile="C:/POO/ProjetoPOO/Principal.cs" bodystart="13" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_projeto_p_o_o_1_1_principal_1a4b24aa79aca1a06c901e00d778d4aa57" prot="private" virt="non-virtual"><scope>ProjetoPOO::Principal</scope><name>adicionarCartãoToolStripMenuItem</name></member>
+      <member refid="class_projeto_p_o_o_1_1_principal_1aec9cbf263e878604e429e39e8751810f" prot="private" virt="non-virtual"><scope>ProjetoPOO::Principal</scope><name>AdicionarCartãoToolStripMenuItem_Click</name></member>
+      <member refid="class_projeto_p_o_o_1_1_principal_1a6917aad13356e71c9df27d6935087618" prot="private" virt="non-virtual"><scope>ProjetoPOO::Principal</scope><name>components</name></member>
+      <member refid="class_projeto_p_o_o_1_1_principal_1a5737f633fe03d95a8bb26cdde5408975" prot="protected" virt="non-virtual"><scope>ProjetoPOO::Principal</scope><name>Dispose</name></member>
+      <member refid="class_projeto_p_o_o_1_1_principal_1a9c381ff439e6fc32e946d543b3384cf2" prot="private" virt="non-virtual"><scope>ProjetoPOO::Principal</scope><name>InitializeComponent</name></member>
+      <member refid="class_projeto_p_o_o_1_1_principal_1acd7741f5569c25032914ed50b243acba" prot="private" virt="non-virtual"><scope>ProjetoPOO::Principal</scope><name>menuStrip1</name></member>
+      <member refid="class_projeto_p_o_o_1_1_principal_1a6d83988f2db63188ffa83ee2f34b394b" prot="private" virt="non-virtual"><scope>ProjetoPOO::Principal</scope><name>pagamentoToolStripMenuItem</name></member>
+      <member refid="class_projeto_p_o_o_1_1_principal_1a33a1d9420d3d3994dd891d63c6c7ac88" prot="public" virt="non-virtual"><scope>ProjetoPOO::Principal</scope><name>Principal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

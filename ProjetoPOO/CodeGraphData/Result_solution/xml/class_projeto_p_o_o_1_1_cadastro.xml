@@ -1,0 +1,465 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_projeto_p_o_o_1_1_cadastro" kind="class" prot="public">
+    <compoundname>ProjetoPOO::Cadastro</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_cadastro_1a85e2809288df98916e06f803aeebea36" prot="public" static="yes" mutable="no">
+        <type>MySqlCommand</type>
+        <definition>MySqlCommand ProjetoPOO.Cadastro.command</definition>
+        <argsstring></argsstring>
+        <name>command</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Cadastro.cs" line="17" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_cadastro_1a80aa7f3d71955b721c4c788e9595051b" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer ProjetoPOO.Cadastro.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Variável de designer necessária. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Cadastro.Designer.cs" line="8" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.Designer.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_projeto_p_o_o_1_1_cadastro_1a35f4890b9efb2c641dc27cb696c27fa8" compoundref="_cadastro_8_designer_8cs" startline="14" endline="21">ProjetoPOO.Cadastro.Dispose</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_cadastro_1a929788903f2c103ba132725cdae5de64" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ProjetoPOO.Cadastro.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Cadastro.Designer.cs" line="186" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.Designer.cs" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_cadastro_1aadad455a547c99f8b6cdcd027ae7f4b2" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ProjetoPOO.Cadastro.label2</definition>
+        <argsstring></argsstring>
+        <name>label2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Cadastro.Designer.cs" line="187" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.Designer.cs" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_cadastro_1a270f201ec2c23cd25d2d17107a5b21c2" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox ProjetoPOO.Cadastro.txtNomeUser</definition>
+        <argsstring></argsstring>
+        <name>txtNomeUser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Cadastro.Designer.cs" line="188" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.Designer.cs" bodystart="188" bodyend="-1"/>
+        <referencedby refid="class_projeto_p_o_o_1_1_cadastro_1ad7e92ac5b3393a9f11556796a5bb8bcb" compoundref="_cadastro_8cs" startline="33" endline="59">ProjetoPOO.Cadastro.Button2_Click</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_cadastro_1a7c028e3e3341297437ec928d63344f83" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox ProjetoPOO.Cadastro.txtEmail</definition>
+        <argsstring></argsstring>
+        <name>txtEmail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Cadastro.Designer.cs" line="189" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.Designer.cs" bodystart="189" bodyend="-1"/>
+        <referencedby refid="class_projeto_p_o_o_1_1_cadastro_1ad7e92ac5b3393a9f11556796a5bb8bcb" compoundref="_cadastro_8cs" startline="33" endline="59">ProjetoPOO.Cadastro.Button2_Click</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_cadastro_1a49840ef6251acd03eefe5a4f4f531c43" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ProjetoPOO.Cadastro.label3</definition>
+        <argsstring></argsstring>
+        <name>label3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Cadastro.Designer.cs" line="190" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.Designer.cs" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_cadastro_1ad14fb8ebeac34c1b955db6e5325f07f9" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ProjetoPOO.Cadastro.label4</definition>
+        <argsstring></argsstring>
+        <name>label4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Cadastro.Designer.cs" line="191" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.Designer.cs" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_cadastro_1a6c2c037e05f1347a7996dce51e9c1e0d" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ProjetoPOO.Cadastro.label5</definition>
+        <argsstring></argsstring>
+        <name>label5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Cadastro.Designer.cs" line="192" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.Designer.cs" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_cadastro_1ae056a7e4bb564cd4dc3d4bd361c72303" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ProjetoPOO.Cadastro.label6</definition>
+        <argsstring></argsstring>
+        <name>label6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Cadastro.Designer.cs" line="193" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.Designer.cs" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_cadastro_1af26ed8e658caafadc5675f526ec9543c" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox ProjetoPOO.Cadastro.txtSenha</definition>
+        <argsstring></argsstring>
+        <name>txtSenha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Cadastro.Designer.cs" line="194" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.Designer.cs" bodystart="194" bodyend="-1"/>
+        <referencedby refid="class_projeto_p_o_o_1_1_cadastro_1ad7e92ac5b3393a9f11556796a5bb8bcb" compoundref="_cadastro_8cs" startline="33" endline="59">ProjetoPOO.Cadastro.Button2_Click</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_cadastro_1a33c3cab8cf4f6894b5cdf2dcc7798d97" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.PictureBox</type>
+        <definition>System.Windows.Forms.PictureBox ProjetoPOO.Cadastro.pictureBox1</definition>
+        <argsstring></argsstring>
+        <name>pictureBox1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Cadastro.Designer.cs" line="195" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.Designer.cs" bodystart="195" bodyend="-1"/>
+        <referencedby refid="class_projeto_p_o_o_1_1_cadastro_1af479dba0b3832b89f9619d369374e64e" compoundref="_cadastro_8_designer_8cs" startline="29" endline="182">ProjetoPOO.Cadastro.InitializeComponent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_cadastro_1a8f545f02f379f13e33a5bac53afd3165" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ProjetoPOO.Cadastro.btnVoltar</definition>
+        <argsstring></argsstring>
+        <name>btnVoltar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Cadastro.Designer.cs" line="196" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.Designer.cs" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_cadastro_1a823a9625f4391d9bb21c342f75c3d0f0" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ProjetoPOO.Cadastro.btnCriar</definition>
+        <argsstring></argsstring>
+        <name>btnCriar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Cadastro.Designer.cs" line="197" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.Designer.cs" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_cadastro_1a2b5dcdb7fad5bb44bd08b7420a8bd00a" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox ProjetoPOO.Cadastro.txtEndereco</definition>
+        <argsstring></argsstring>
+        <name>txtEndereco</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Cadastro.Designer.cs" line="198" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.Designer.cs" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_cadastro_1aee6911cf9cd8d4e5a912e1c9ca692370" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ProjetoPOO.Cadastro.label7</definition>
+        <argsstring></argsstring>
+        <name>label7</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Cadastro.Designer.cs" line="199" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.Designer.cs" bodystart="199" bodyend="-1"/>
+        <referencedby refid="class_projeto_p_o_o_1_1_cadastro_1ad7e92ac5b3393a9f11556796a5bb8bcb" compoundref="_cadastro_8cs" startline="33" endline="59">ProjetoPOO.Cadastro.Button2_Click</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_projeto_p_o_o_1_1_cadastro_1adde9a6c4601cb89a07b45335c4c39d69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ProjetoPOO.Cadastro.Cadastro</definition>
+        <argsstring>()</argsstring>
+        <name>Cadastro</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Cadastro.cs" line="18" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.cs" bodystart="18" bodyend="21"/>
+        <references refid="class_projeto_p_o_o_1_1_cadastro_1af479dba0b3832b89f9619d369374e64e" compoundref="_cadastro_8_designer_8cs" startline="29" endline="182">ProjetoPOO.Cadastro.InitializeComponent</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_projeto_p_o_o_1_1_cadastro_1af3f3be4ad259e45191f7ae9817d3bcc1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProjetoPOO.Cadastro.Label3_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Label3_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Cadastro.cs" line="23" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projeto_p_o_o_1_1_cadastro_1a0b2a4e71a91ab896aacd50b2e562b1e0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProjetoPOO.Cadastro.Cadastro_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Cadastro_Load</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Cadastro.cs" line="28" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projeto_p_o_o_1_1_cadastro_1ad7e92ac5b3393a9f11556796a5bb8bcb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProjetoPOO.Cadastro.Button2_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Button2_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Cadastro.cs" line="33" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.cs" bodystart="33" bodyend="59"/>
+        <references refid="class_projeto_p_o_o_1_1_cadastro_1aee6911cf9cd8d4e5a912e1c9ca692370" compoundref="_cadastro_8_designer_8cs" startline="199">ProjetoPOO.Cadastro.label7</references>
+        <references refid="class_projeto_p_o_o_1_1_cadastro_1a7c028e3e3341297437ec928d63344f83" compoundref="_cadastro_8_designer_8cs" startline="189">ProjetoPOO.Cadastro.txtEmail</references>
+        <references refid="class_projeto_p_o_o_1_1_cadastro_1a270f201ec2c23cd25d2d17107a5b21c2" compoundref="_cadastro_8_designer_8cs" startline="188">ProjetoPOO.Cadastro.txtNomeUser</references>
+        <references refid="class_projeto_p_o_o_1_1_cadastro_1af26ed8e658caafadc5675f526ec9543c" compoundref="_cadastro_8_designer_8cs" startline="194">ProjetoPOO.Cadastro.txtSenha</references>
+      </memberdef>
+      <memberdef kind="function" id="class_projeto_p_o_o_1_1_cadastro_1a2ddd579ec40799e4f840e200649179fb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProjetoPOO.Cadastro.btnVoltar_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnVoltar_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Cadastro.cs" line="61" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.cs" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projeto_p_o_o_1_1_cadastro_1ab70d5a9e01a43aa7501582ffec6cbd4a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProjetoPOO.Cadastro.label7_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>label7_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Cadastro.cs" line="68" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.cs" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projeto_p_o_o_1_1_cadastro_1af479dba0b3832b89f9619d369374e64e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProjetoPOO.Cadastro.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Método necessário para suporte ao Designer - não modifique o conteúdo deste método com o editor de código. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Cadastro.Designer.cs" line="29" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.Designer.cs" bodystart="29" bodyend="182"/>
+        <references refid="class_projeto_p_o_o_1_1_cadastro_1a33c3cab8cf4f6894b5cdf2dcc7798d97" compoundref="_cadastro_8_designer_8cs" startline="195">ProjetoPOO.Cadastro.pictureBox1</references>
+        <referencedby refid="class_projeto_p_o_o_1_1_cadastro_1adde9a6c4601cb89a07b45335c4c39d69" compoundref="_cadastro_8cs" startline="18" endline="21">ProjetoPOO.Cadastro.Cadastro</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_projeto_p_o_o_1_1_cadastro_1a35f4890b9efb2c641dc27cb696c27fa8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ProjetoPOO.Cadastro.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Limpar os recursos que estão sendo usados. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true se for necessário descartar os recursos gerenciados; caso contrário, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/Cadastro.Designer.cs" line="14" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.Designer.cs" bodystart="14" bodyend="21"/>
+        <references refid="class_projeto_p_o_o_1_1_cadastro_1a80aa7f3d71955b721c4c788e9595051b" compoundref="_cadastro_8_designer_8cs" startline="8">ProjetoPOO.Cadastro.components</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>ProjetoPOO.Cadastro</label>
+        <link refid="class_projeto_p_o_o_1_1_cadastro"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Form</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ProjetoPOO.Cadastro</label>
+        <link refid="class_projeto_p_o_o_1_1_cadastro"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>pictureBox1</edgelabel>
+          <edgelabel>label1</edgelabel>
+          <edgelabel>txtSenha</edgelabel>
+          <edgelabel>label2</edgelabel>
+          <edgelabel>label3</edgelabel>
+          <edgelabel>txtEndereco</edgelabel>
+          <edgelabel>btnCriar</edgelabel>
+          <edgelabel>label4</edgelabel>
+          <edgelabel>label5</edgelabel>
+          <edgelabel>label6</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Form</label>
+      </node>
+      <node id="4">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/POO/ProjetoPOO/Cadastro.cs" line="16" column="1" bodyfile="C:/POO/ProjetoPOO/Cadastro.cs" bodystart="15" bodyend="72"/>
+    <listofallmembers>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_1a823a9625f4391d9bb21c342f75c3d0f0" prot="private" virt="non-virtual"><scope>ProjetoPOO::Cadastro</scope><name>btnCriar</name></member>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_1a8f545f02f379f13e33a5bac53afd3165" prot="private" virt="non-virtual"><scope>ProjetoPOO::Cadastro</scope><name>btnVoltar</name></member>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_1a2ddd579ec40799e4f840e200649179fb" prot="private" virt="non-virtual"><scope>ProjetoPOO::Cadastro</scope><name>btnVoltar_Click</name></member>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_1ad7e92ac5b3393a9f11556796a5bb8bcb" prot="private" virt="non-virtual"><scope>ProjetoPOO::Cadastro</scope><name>Button2_Click</name></member>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_1adde9a6c4601cb89a07b45335c4c39d69" prot="public" virt="non-virtual"><scope>ProjetoPOO::Cadastro</scope><name>Cadastro</name></member>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_1a0b2a4e71a91ab896aacd50b2e562b1e0" prot="private" virt="non-virtual"><scope>ProjetoPOO::Cadastro</scope><name>Cadastro_Load</name></member>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_1a85e2809288df98916e06f803aeebea36" prot="public" virt="non-virtual"><scope>ProjetoPOO::Cadastro</scope><name>command</name></member>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_1a80aa7f3d71955b721c4c788e9595051b" prot="private" virt="non-virtual"><scope>ProjetoPOO::Cadastro</scope><name>components</name></member>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_1a35f4890b9efb2c641dc27cb696c27fa8" prot="protected" virt="non-virtual"><scope>ProjetoPOO::Cadastro</scope><name>Dispose</name></member>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_1af479dba0b3832b89f9619d369374e64e" prot="private" virt="non-virtual"><scope>ProjetoPOO::Cadastro</scope><name>InitializeComponent</name></member>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_1a929788903f2c103ba132725cdae5de64" prot="private" virt="non-virtual"><scope>ProjetoPOO::Cadastro</scope><name>label1</name></member>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_1aadad455a547c99f8b6cdcd027ae7f4b2" prot="private" virt="non-virtual"><scope>ProjetoPOO::Cadastro</scope><name>label2</name></member>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_1a49840ef6251acd03eefe5a4f4f531c43" prot="private" virt="non-virtual"><scope>ProjetoPOO::Cadastro</scope><name>label3</name></member>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_1af3f3be4ad259e45191f7ae9817d3bcc1" prot="private" virt="non-virtual"><scope>ProjetoPOO::Cadastro</scope><name>Label3_Click</name></member>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_1ad14fb8ebeac34c1b955db6e5325f07f9" prot="private" virt="non-virtual"><scope>ProjetoPOO::Cadastro</scope><name>label4</name></member>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_1a6c2c037e05f1347a7996dce51e9c1e0d" prot="private" virt="non-virtual"><scope>ProjetoPOO::Cadastro</scope><name>label5</name></member>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_1ae056a7e4bb564cd4dc3d4bd361c72303" prot="private" virt="non-virtual"><scope>ProjetoPOO::Cadastro</scope><name>label6</name></member>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_1aee6911cf9cd8d4e5a912e1c9ca692370" prot="private" virt="non-virtual"><scope>ProjetoPOO::Cadastro</scope><name>label7</name></member>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_1ab70d5a9e01a43aa7501582ffec6cbd4a" prot="private" virt="non-virtual"><scope>ProjetoPOO::Cadastro</scope><name>label7_Click</name></member>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_1a33c3cab8cf4f6894b5cdf2dcc7798d97" prot="private" virt="non-virtual"><scope>ProjetoPOO::Cadastro</scope><name>pictureBox1</name></member>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_1a7c028e3e3341297437ec928d63344f83" prot="private" virt="non-virtual"><scope>ProjetoPOO::Cadastro</scope><name>txtEmail</name></member>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_1a2b5dcdb7fad5bb44bd08b7420a8bd00a" prot="private" virt="non-virtual"><scope>ProjetoPOO::Cadastro</scope><name>txtEndereco</name></member>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_1a270f201ec2c23cd25d2d17107a5b21c2" prot="private" virt="non-virtual"><scope>ProjetoPOO::Cadastro</scope><name>txtNomeUser</name></member>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_1af26ed8e658caafadc5675f526ec9543c" prot="private" virt="non-virtual"><scope>ProjetoPOO::Cadastro</scope><name>txtSenha</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

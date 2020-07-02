@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_6d96c676b7301332c237c1bbca76a961" kind="dir">
+    <compoundname>C:/POO/ProjetoPOO</compoundname>
+    <innerdir refid="dir_b536cba10ca1c1a904b44c549cb7f5e9">C:/POO/ProjetoPOO/Properties</innerdir>
+    <innerfile refid="_cadastro_8cs">Cadastro.cs</innerfile>
+    <innerfile refid="_cadastro_8_designer_8cs">Cadastro.Designer.cs</innerfile>
+    <innerfile refid="_cadastro_motoboy_8cs">CadastroMotoboy.cs</innerfile>
+    <innerfile refid="_cadastro_motoboy_8_designer_8cs">CadastroMotoboy.Designer.cs</innerfile>
+    <innerfile refid="_chamar_01_motoboy_8cs">Chamar Motoboy.cs</innerfile>
+    <innerfile refid="_chamar_01_motoboy_8_designer_8cs">Chamar Motoboy.Designer.cs</innerfile>
+    <innerfile refid="_chat_8cs">Chat.cs</innerfile>
+    <innerfile refid="_chat_8_designer_8cs">Chat.Designer.cs</innerfile>
+    <innerfile refid="conexao_8cs">conexao.cs</innerfile>
+    <innerfile refid="_login_8cs">Login.cs</innerfile>
+    <innerfile refid="_login_8_designer_8cs">Login.Designer.cs</innerfile>
+    <innerfile refid="_pagamento_8cs">Pagamento.cs</innerfile>
+    <innerfile refid="_pagamento_8_designer_8cs">Pagamento.Designer.cs</innerfile>
+    <innerfile refid="_principal_8cs">Principal.cs</innerfile>
+    <innerfile refid="_principal_8_designer_8cs">Principal.Designer.cs</innerfile>
+    <innerfile refid="_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/POO/ProjetoPOO/"/>
+  </compounddef>
+</doxygen>

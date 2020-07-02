@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace ProjetoPOO
 {
     public partial class CadastroMotoboy : Form
     {
+        private MySqlConnection connection;
         public CadastroMotoboy()
         {
             InitializeComponent();
@@ -31,6 +33,7 @@ namespace ProjetoPOO
 
         private void BtnCadastrar_Click(object sender, EventArgs e)
         {
+            Principal principal = new Principal();
             String nome = txtNome.Text;
             String nomeUsuario = txtNomeUser.Text;
             String senha = txtSenha.Text;
@@ -55,6 +58,18 @@ namespace ProjetoPOO
                 txtEmail.Clear();
                 txtTel.Clear();
                 txtCel.Clear();
+
+                MySqlCommand inserir = new MySqlCommand("INSERT INTO cliente (email, login, senha, cnh, telefone, celular, nome) VALUES (@email, @User, @Pass, @cnh, @tel, @cel, @nome ", connection);
+                inserir.Parameters.AddWithValue("@email", txtEmail);
+                inserir.Parameters.AddWithValue("@User", txtNomeUser);
+                inserir.Parameters.AddWithValue("@Pass", txtSenha);
+                inserir.Parameters.AddWithValue("@cnh", txtCNH);
+                inserir.Parameters.AddWithValue("@tel", txtTel);
+                inserir.Parameters.AddWithValue("@cel", txtCel);
+                inserir.Parameters.AddWithValue("@nome", txtNome);
+                inserir.ExecuteNonQuery();
+                principal.ShowDialog();
+                connection.Close();
             }
         }
     }
