@@ -1,6 +1,6 @@
 ﻿namespace ProjetoPOO
 {
-    partial class Chat
+    partial class Corrida
     {
         /// <summary>
         /// Required designer variable.
@@ -72,7 +72,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(313, 516);
+            this.ClientSize = new System.Drawing.Size(313, 521);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);

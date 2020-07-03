@@ -110,9 +110,9 @@ C:\Repositorio\POO\ProjetoPOO\obj\Debug\ProjetoPOO.Login.resources
 C:\Repositorio\POO\ProjetoPOO\obj\Debug\ProjetoPOO.Pagamento.resources
 C:\Repositorio\POO\ProjetoPOO\obj\Debug\ProjetoPOO.Principal.resources
 C:\Repositorio\POO\ProjetoPOO\obj\Debug\ProjetoPOO.Properties.Resources.resources
-C:\Repositorio\POO\ProjetoPOO\obj\Debug\ProjetoPOO.Chat.resources
 C:\Repositorio\POO\ProjetoPOO\obj\Debug\ProjetoPOO.csproj.GenerateResource.cache
 C:\Repositorio\POO\ProjetoPOO\obj\Debug\ProjetoPOO.csproj.CoreCompileInputs.cache
 C:\Repositorio\POO\ProjetoPOO\obj\Debug\ProjetoPOO.csproj.CopyComplete
 C:\Repositorio\POO\ProjetoPOO\obj\Debug\ProjetoPOO.exe
 C:\Repositorio\POO\ProjetoPOO\obj\Debug\ProjetoPOO.pdb
+C:\Repositorio\POO\ProjetoPOO\obj\Debug\ProjetoPOO.Corrida.resources

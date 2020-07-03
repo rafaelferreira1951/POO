@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProjetoPOO
 {
-    public partial class Chat : Form
+    public partial class Corrida : Form
     {
-        public Chat()
+        public Corrida()
         {
             InitializeComponent();
         }
