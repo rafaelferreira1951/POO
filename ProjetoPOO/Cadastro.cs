@@ -48,10 +48,6 @@ namespace ProjetoPOO
             else
             {
                 MessageBox.Show("Cadastrado com Sucesso");
-                txtNomeUser.Clear();
-                txtSenha.Clear();
-                txtEmail.Clear();
-                txtEndereco.Clear();
 
                 connection = Conexao.GetConnection();
                 connection.Open();

@@ -45,28 +45,23 @@ namespace ProjetoPOO
 
             if (nome == "" || nomeUsuario == "" || senha == "" || rg == "" || cnh == "" || email == "" || tel == "" || cel == "")
             {
-                MessageBox.Show("PREENCHA TODOS OS CAMPOS CRIATURA, ASSIM NÃO DA !!!!");
+                MessageBox.Show("Por favor preencha todos os Campos!");
             }
             else
             {
-                MessageBox.Show("CADASTRADO COM SUCESSO");
-                txtNome.Clear();           
-                txtNomeUser.Clear();
-                txtSenha.Clear();
-                txtRG.Clear();
-                txtCNH.Clear();
-                txtEmail.Clear();
-                txtTel.Clear();
-                txtCel.Clear();
+                MessageBox.Show("Cadastrado Com Sucesso!");
 
-                MySqlCommand inserir = new MySqlCommand("INSERT INTO cliente (email, login, senha, cnh, telefone, celular, nome) VALUES (@email, @User, @Pass, @cnh, @tel, @cel, @nome ", connection);
-                inserir.Parameters.AddWithValue("@email", txtEmail);
-                inserir.Parameters.AddWithValue("@User", txtNomeUser);
-                inserir.Parameters.AddWithValue("@Pass", txtSenha);
-                inserir.Parameters.AddWithValue("@cnh", txtCNH);
-                inserir.Parameters.AddWithValue("@tel", txtTel);
-                inserir.Parameters.AddWithValue("@cel", txtCel);
-                inserir.Parameters.AddWithValue("@nome", txtNome);
+                connection = Conexao.GetConnection();
+                connection.Open();
+                MySqlCommand inserir = new MySqlCommand("INSERT INTO cliente (email, usuario, senha, rg, cnh, telefone, celular, nome) VALUES (@email, @User, @Pass, @rg, @cnh, @tel, @cel, @nome) ", connection);
+                inserir.Parameters.AddWithValue("@email", email);
+                inserir.Parameters.AddWithValue("@User", nomeUsuario);
+                inserir.Parameters.AddWithValue("@Pass", senha);
+                inserir.Parameters.AddWithValue("@rg", rg);
+                inserir.Parameters.AddWithValue("@cnh", cnh);
+                inserir.Parameters.AddWithValue("@tel", tel);
+                inserir.Parameters.AddWithValue("@cel", cel);
+                inserir.Parameters.AddWithValue("@nome", nome);
                 inserir.ExecuteNonQuery();
                 principal.ShowDialog();
                 connection.Close();

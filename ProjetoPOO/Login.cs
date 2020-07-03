@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace ProjetoPOO
 {
     public partial class Login : Form
     {
+        private MySqlConnection connection;
         public Login()
         {
             InitializeComponent();
@@ -21,31 +23,25 @@ namespace ProjetoPOO
         {
             Principal principal = new Principal();
 
-
-
             String nomeUsuario = txtNomeUser.Text;
             String senha = txtSenha.Text;
-            if (nomeUsuario == "")
+            if (nomeUsuario == "" || senha == "")
             {
-                MessageBox.Show("PREENCHA TODOS OS CAMPOS CRIATURA, ASSIM NÃO DA !!!!");
+                MessageBox.Show("Por favor preencha todos os Campos!");
                 txtNomeUser.Focus();
                 return;
             }
-
-            if (senha == "")
-            {
-                MessageBox.Show("PREENCHA TODOS OS CAMPOS CRIATURA, ASSIM NÃO DA !!!!");
-                txtSenha.Focus();
-                return;
-            }
-
             else
             {
                 MessageBox.Show("LOGADO COM SUCESSO");
-                txtNomeUser.Clear();
-                txtSenha.Clear();
-            
+
+                connection = Conexao.GetConnection();
+                connection.Open();
+                MySqlCommand inserir = new MySqlCommand("INSERT INTO usuario (usuario, senha) VALUES (@User,@Pass)", connection);
+                inserir.Parameters.AddWithValue("@User", nomeUsuario);
+                inserir.Parameters.AddWithValue("@Pass", senha);
                 principal.ShowDialog();
+                connection.Clone();
             }
         }
 

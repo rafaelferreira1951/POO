@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace ProjetoPOO
 {
     public partial class Pagamento : Form
     {
+        private MySqlConnection connection;
         public Pagamento()
         {
             InitializeComponent();
@@ -29,20 +31,30 @@ namespace ProjetoPOO
 
             if (numCartao == "" || codSeguranca == "" || mesVenc == "" || anoVenc == "" || nomeTitular == "" || cpf == "" || nascTitular == "")
             {
-                MessageBox.Show("PREENCHA TODOS OS CAMPOS CRIATURA, ASSIM NÃO DA !!!!");
+                MessageBox.Show("Por favor preencha todos os Campos!");
             }
 
             else
             {
-                MessageBox.Show("CARTÃO CADASTRADO COM SUCESSO");
-                txtNumCartao.Clear();
-                txtCodSeguranca.Clear();
-                txtMesVenc.Clear();
-                txtAnoVenc.Clear();
-                txtNomeTitular.Clear();
-                txtCPF.Clear();
-                txtNascTitular.Clear();
+                MessageBox.Show("Cartão Cadastrado");
+                connection = Conexao.GetConnection();
+                connection.Open();
+                MySqlCommand inserir = new MySqlCommand("INSERT INTO usuario (numCartao, codSeguranca, mesVenc, anoVenc, nomeTitular, cpf, nascTitular) VALUES (@NumCar, @Codsegu, @MesVenc, @AnoVenc, @NomeTitu, @cpf, @NascTitu)", connection);
+                inserir.Parameters.AddWithValue("@@NumCar", numCartao);
+                inserir.Parameters.AddWithValue("@Codsegu", codSeguranca);
+                inserir.Parameters.AddWithValue("@MesVenc", mesVenc);
+                inserir.Parameters.AddWithValue("@AnoVenc", anoVenc);
+                inserir.Parameters.AddWithValue("@NomeTitu", nomeTitular);
+                inserir.Parameters.AddWithValue("@cpf", cpf);
+                inserir.Parameters.AddWithValue("@NascTitu", nascTitular);
+                connection.Clone();
+
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
