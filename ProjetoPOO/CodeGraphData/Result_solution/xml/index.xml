@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
   <compound refid="class_projeto_p_o_o_1_1_cadastro" kind="class"><name>ProjetoPOO::Cadastro</name>
-    <member refid="class_projeto_p_o_o_1_1_cadastro_1a85e2809288df98916e06f803aeebea36" kind="variable"><name>command</name></member>
+    <member refid="class_projeto_p_o_o_1_1_cadastro_1a22752fa18dfdfa8730efa67c54e8f67e" kind="variable"><name>connection</name></member>
     <member refid="class_projeto_p_o_o_1_1_cadastro_1a80aa7f3d71955b721c4c788e9595051b" kind="variable"><name>components</name></member>
     <member refid="class_projeto_p_o_o_1_1_cadastro_1a929788903f2c103ba132725cdae5de64" kind="variable"><name>label1</name></member>
     <member refid="class_projeto_p_o_o_1_1_cadastro_1aadad455a547c99f8b6cdcd027ae7f4b2" kind="variable"><name>label2</name></member>
@@ -17,6 +17,8 @@
     <member refid="class_projeto_p_o_o_1_1_cadastro_1a823a9625f4391d9bb21c342f75c3d0f0" kind="variable"><name>btnCriar</name></member>
     <member refid="class_projeto_p_o_o_1_1_cadastro_1a2b5dcdb7fad5bb44bd08b7420a8bd00a" kind="variable"><name>txtEndereco</name></member>
     <member refid="class_projeto_p_o_o_1_1_cadastro_1aee6911cf9cd8d4e5a912e1c9ca692370" kind="variable"><name>label7</name></member>
+    <member refid="class_projeto_p_o_o_1_1_cadastro_1aa01eb8ec2cbe0f839926be046753e3f3" kind="variable"><name>txtCel</name></member>
+    <member refid="class_projeto_p_o_o_1_1_cadastro_1aa46ef65fe674babdf2198d8da488deb9" kind="variable"><name>label8</name></member>
     <member refid="class_projeto_p_o_o_1_1_cadastro_1adde9a6c4601cb89a07b45335c4c39d69" kind="function"><name>Cadastro</name></member>
     <member refid="class_projeto_p_o_o_1_1_cadastro_1af3f3be4ad259e45191f7ae9817d3bcc1" kind="function"><name>Label3_Click</name></member>
     <member refid="class_projeto_p_o_o_1_1_cadastro_1a0b2a4e71a91ab896aacd50b2e562b1e0" kind="function"><name>Cadastro_Load</name></member>
@@ -27,6 +29,7 @@
     <member refid="class_projeto_p_o_o_1_1_cadastro_1a35f4890b9efb2c641dc27cb696c27fa8" kind="function"><name>Dispose</name></member>
   </compound>
   <compound refid="class_projeto_p_o_o_1_1_cadastro_motoboy" kind="class"><name>ProjetoPOO::CadastroMotoboy</name>
+    <member refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1ada30823ffa8d582df7f11f49c13f676b" kind="variable"><name>connection</name></member>
     <member refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1a04ebddbe01acca9389a45e2a3d80550b" kind="variable"><name>components</name></member>
     <member refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1a524c21ba0050ebf892149762e59d6c3a" kind="variable"><name>label1</name></member>
     <member refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1ae38d380a8665997b28e31c461c6c17a0" kind="variable"><name>label2</name></member>
@@ -73,9 +76,8 @@
     <member refid="class_projeto_p_o_o_1_1_chat_1aea675406e8f602fa1b54a219fb3316ce" kind="function"><name>Dispose</name></member>
   </compound>
   <compound refid="class_projeto_p_o_o_1_1_conexao" kind="class"><name>ProjetoPOO::Conexao</name>
-    <member refid="class_projeto_p_o_o_1_1_conexao_1a82b1621d4860641ab1cf1fd1d87bf3b0" kind="variable"><name>connection</name></member>
-    <member refid="class_projeto_p_o_o_1_1_conexao_1ae3fa5e0df24b1be8276c2d7b892577e4" kind="variable"><name>command</name></member>
     <member refid="class_projeto_p_o_o_1_1_conexao_1aee69ce6b0b556f70526af96b1aee9503" kind="function"><name>Conectar</name></member>
+    <member refid="class_projeto_p_o_o_1_1_conexao_1a434c1e1d6ae09f6c6e11131f8626a748" kind="function"><name>GetConnection</name></member>
   </compound>
   <compound refid="class_projeto_p_o_o_1_1_login" kind="class"><name>ProjetoPOO::Login</name>
     <member refid="class_projeto_p_o_o_1_1_login_1af90ece3022b5b4ce08c6d55da764ae5e" kind="variable"><name>components</name></member>

@@ -2,36 +2,6 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="class_projeto_p_o_o_1_1_conexao" kind="class" prot="public">
     <compoundname>ProjetoPOO::Conexao</compoundname>
-      <sectiondef kind="public-static-attrib">
-      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_conexao_1a82b1621d4860641ab1cf1fd1d87bf3b0" prot="public" static="yes" mutable="no">
-        <type>MySqlConnection</type>
-        <definition>MySqlConnection ProjetoPOO.Conexao.connection</definition>
-        <argsstring></argsstring>
-        <name>connection</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/POO/ProjetoPOO/conexao.cs" line="13" column="1" bodyfile="C:/POO/ProjetoPOO/conexao.cs" bodystart="13" bodyend="-1"/>
-        <referencedby refid="class_projeto_p_o_o_1_1_conexao_1aee69ce6b0b556f70526af96b1aee9503" compoundref="conexao_8cs" startline="17" endline="31">ProjetoPOO.Conexao.Conectar</referencedby>
-      </memberdef>
-      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_conexao_1ae3fa5e0df24b1be8276c2d7b892577e4" prot="public" static="yes" mutable="no">
-        <type>MySqlCommand</type>
-        <definition>MySqlCommand ProjetoPOO.Conexao.command</definition>
-        <argsstring></argsstring>
-        <name>command</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/POO/ProjetoPOO/conexao.cs" line="15" column="1" bodyfile="C:/POO/ProjetoPOO/conexao.cs" bodystart="15" bodyend="-1"/>
-        <referencedby refid="class_projeto_p_o_o_1_1_conexao_1aee69ce6b0b556f70526af96b1aee9503" compoundref="conexao_8cs" startline="17" endline="31">ProjetoPOO.Conexao.Conectar</referencedby>
-      </memberdef>
-      </sectiondef>
       <sectiondef kind="public-static-func">
       <memberdef kind="function" id="class_projeto_p_o_o_1_1_conexao_1aee69ce6b0b556f70526af96b1aee9503" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -44,20 +14,30 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/POO/ProjetoPOO/conexao.cs" line="17" column="1" bodyfile="C:/POO/ProjetoPOO/conexao.cs" bodystart="17" bodyend="31"/>
-        <references refid="class_projeto_p_o_o_1_1_conexao_1ae3fa5e0df24b1be8276c2d7b892577e4" compoundref="conexao_8cs" startline="15">ProjetoPOO.Conexao.command</references>
-        <references refid="class_projeto_p_o_o_1_1_conexao_1a82b1621d4860641ab1cf1fd1d87bf3b0" compoundref="conexao_8cs" startline="13">ProjetoPOO.Conexao.connection</references>
+        <location file="C:/POO/ProjetoPOO/conexao.cs" line="14" column="1" bodyfile="C:/POO/ProjetoPOO/conexao.cs" bodystart="14" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_projeto_p_o_o_1_1_conexao_1a434c1e1d6ae09f6c6e11131f8626a748" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MySqlConnection</type>
+        <definition>static MySqlConnection ProjetoPOO.Conexao.GetConnection</definition>
+        <argsstring>()</argsstring>
+        <name>GetConnection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/conexao.cs" line="32" column="1" bodyfile="C:/POO/ProjetoPOO/conexao.cs" bodystart="32" bodyend="37"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/POO/ProjetoPOO/conexao.cs" line="12" column="1" bodyfile="C:/POO/ProjetoPOO/conexao.cs" bodystart="11" bodyend="32"/>
+    <location file="C:/POO/ProjetoPOO/conexao.cs" line="13" column="1" bodyfile="C:/POO/ProjetoPOO/conexao.cs" bodystart="12" bodyend="38"/>
     <listofallmembers>
-      <member refid="class_projeto_p_o_o_1_1_conexao_1ae3fa5e0df24b1be8276c2d7b892577e4" prot="public" virt="non-virtual"><scope>ProjetoPOO::Conexao</scope><name>command</name></member>
       <member refid="class_projeto_p_o_o_1_1_conexao_1aee69ce6b0b556f70526af96b1aee9503" prot="public" virt="non-virtual"><scope>ProjetoPOO::Conexao</scope><name>Conectar</name></member>
-      <member refid="class_projeto_p_o_o_1_1_conexao_1a82b1621d4860641ab1cf1fd1d87bf3b0" prot="public" virt="non-virtual"><scope>ProjetoPOO::Conexao</scope><name>connection</name></member>
+      <member refid="class_projeto_p_o_o_1_1_conexao_1a434c1e1d6ae09f6c6e11131f8626a748" prot="public" virt="non-virtual"><scope>ProjetoPOO::Conexao</scope><name>GetConnection</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

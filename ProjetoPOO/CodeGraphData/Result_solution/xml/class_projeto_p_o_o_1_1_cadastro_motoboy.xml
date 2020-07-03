@@ -4,6 +4,20 @@
     <compoundname>ProjetoPOO::CadastroMotoboy</compoundname>
     <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
       <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_projeto_p_o_o_1_1_cadastro_motoboy_1ada30823ffa8d582df7f11f49c13f676b" prot="private" static="no" mutable="no">
+        <type>MySqlConnection</type>
+        <definition>MySqlConnection ProjetoPOO.CadastroMotoboy.connection</definition>
+        <argsstring></argsstring>
+        <name>connection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/POO/ProjetoPOO/CadastroMotoboy.cs" line="16" column="1" bodyfile="C:/POO/ProjetoPOO/CadastroMotoboy.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1abf7eaa45f3e506235ac707aee60217b7" compoundref="_cadastro_motoboy_8cs" startline="34" endline="74">ProjetoPOO.CadastroMotoboy.BtnCadastrar_Click</referencedby>
+      </memberdef>
       <memberdef kind="variable" id="class_projeto_p_o_o_1_1_cadastro_motoboy_1a04ebddbe01acca9389a45e2a3d80550b" prot="private" static="no" mutable="no">
         <type>System.ComponentModel.IContainer</type>
         <definition>System.ComponentModel.IContainer ProjetoPOO.CadastroMotoboy.components</definition>
@@ -123,6 +137,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/POO/ProjetoPOO/CadastroMotoboy.Designer.cs" line="277" column="1" bodyfile="C:/POO/ProjetoPOO/CadastroMotoboy.Designer.cs" bodystart="277" bodyend="-1"/>
+        <referencedby refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1abf7eaa45f3e506235ac707aee60217b7" compoundref="_cadastro_motoboy_8cs" startline="34" endline="74">ProjetoPOO.CadastroMotoboy.BtnCadastrar_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_projeto_p_o_o_1_1_cadastro_motoboy_1aee93b9ab2fd296906d4adb5622787c3e" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.TextBox</type>
@@ -149,6 +164,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/POO/ProjetoPOO/CadastroMotoboy.Designer.cs" line="279" column="1" bodyfile="C:/POO/ProjetoPOO/CadastroMotoboy.Designer.cs" bodystart="279" bodyend="-1"/>
+        <referencedby refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1abf7eaa45f3e506235ac707aee60217b7" compoundref="_cadastro_motoboy_8cs" startline="34" endline="74">ProjetoPOO.CadastroMotoboy.BtnCadastrar_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_projeto_p_o_o_1_1_cadastro_motoboy_1abbd3c8c006ec2bd8b55ef9315be36422" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.TextBox</type>
@@ -162,6 +178,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/POO/ProjetoPOO/CadastroMotoboy.Designer.cs" line="280" column="1" bodyfile="C:/POO/ProjetoPOO/CadastroMotoboy.Designer.cs" bodystart="280" bodyend="-1"/>
+        <referencedby refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1abf7eaa45f3e506235ac707aee60217b7" compoundref="_cadastro_motoboy_8cs" startline="34" endline="74">ProjetoPOO.CadastroMotoboy.BtnCadastrar_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_projeto_p_o_o_1_1_cadastro_motoboy_1a2c8c4f60c96dd31a1f5bfe0a2e00756a" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.TextBox</type>
@@ -175,6 +192,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/POO/ProjetoPOO/CadastroMotoboy.Designer.cs" line="281" column="1" bodyfile="C:/POO/ProjetoPOO/CadastroMotoboy.Designer.cs" bodystart="281" bodyend="-1"/>
+        <referencedby refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1abf7eaa45f3e506235ac707aee60217b7" compoundref="_cadastro_motoboy_8cs" startline="34" endline="74">ProjetoPOO.CadastroMotoboy.BtnCadastrar_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_projeto_p_o_o_1_1_cadastro_motoboy_1a1d9fae64786ec4820541c3c44e2a8a41" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Button</type>
@@ -214,6 +232,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/POO/ProjetoPOO/CadastroMotoboy.Designer.cs" line="284" column="1" bodyfile="C:/POO/ProjetoPOO/CadastroMotoboy.Designer.cs" bodystart="284" bodyend="-1"/>
+        <referencedby refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1abf7eaa45f3e506235ac707aee60217b7" compoundref="_cadastro_motoboy_8cs" startline="34" endline="74">ProjetoPOO.CadastroMotoboy.BtnCadastrar_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_projeto_p_o_o_1_1_cadastro_motoboy_1a829d0aaeab1816b616649e08ecffada5" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -240,6 +259,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/POO/ProjetoPOO/CadastroMotoboy.Designer.cs" line="286" column="1" bodyfile="C:/POO/ProjetoPOO/CadastroMotoboy.Designer.cs" bodystart="286" bodyend="-1"/>
+        <referencedby refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1abf7eaa45f3e506235ac707aee60217b7" compoundref="_cadastro_motoboy_8cs" startline="34" endline="74">ProjetoPOO.CadastroMotoboy.BtnCadastrar_Click</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_projeto_p_o_o_1_1_cadastro_motoboy_1aa02365a50a68e07ef4a90791ec648937" prot="private" static="no" mutable="no">
         <type>System.Windows.Forms.Label</type>
@@ -279,6 +299,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/POO/ProjetoPOO/CadastroMotoboy.Designer.cs" line="289" column="1" bodyfile="C:/POO/ProjetoPOO/CadastroMotoboy.Designer.cs" bodystart="289" bodyend="-1"/>
+        <referencedby refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1abf7eaa45f3e506235ac707aee60217b7" compoundref="_cadastro_motoboy_8cs" startline="34" endline="74">ProjetoPOO.CadastroMotoboy.BtnCadastrar_Click</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -293,7 +314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/POO/ProjetoPOO/CadastroMotoboy.cs" line="15" column="1" bodyfile="C:/POO/ProjetoPOO/CadastroMotoboy.cs" bodystart="15" bodyend="18"/>
+        <location file="C:/POO/ProjetoPOO/CadastroMotoboy.cs" line="17" column="1" bodyfile="C:/POO/ProjetoPOO/CadastroMotoboy.cs" bodystart="17" bodyend="20"/>
         <references refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1ac298c90e546cef27a334f91db3ae1e8a" compoundref="_cadastro_motoboy_8_designer_8cs" startline="29" endline="266">ProjetoPOO.CadastroMotoboy.InitializeComponent</references>
       </memberdef>
       </sectiondef>
@@ -317,7 +338,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/POO/ProjetoPOO/CadastroMotoboy.cs" line="20" column="1" bodyfile="C:/POO/ProjetoPOO/CadastroMotoboy.cs" bodystart="20" bodyend="23"/>
+        <location file="C:/POO/ProjetoPOO/CadastroMotoboy.cs" line="22" column="1" bodyfile="C:/POO/ProjetoPOO/CadastroMotoboy.cs" bodystart="22" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="class_projeto_p_o_o_1_1_cadastro_motoboy_1a66b0ba35324b641fb707e563b5fdbfe3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -338,7 +359,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/POO/ProjetoPOO/CadastroMotoboy.cs" line="25" column="1" bodyfile="C:/POO/ProjetoPOO/CadastroMotoboy.cs" bodystart="25" bodyend="30"/>
+        <location file="C:/POO/ProjetoPOO/CadastroMotoboy.cs" line="27" column="1" bodyfile="C:/POO/ProjetoPOO/CadastroMotoboy.cs" bodystart="27" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="class_projeto_p_o_o_1_1_cadastro_motoboy_1abf7eaa45f3e506235ac707aee60217b7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -359,7 +380,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/POO/ProjetoPOO/CadastroMotoboy.cs" line="32" column="1" bodyfile="C:/POO/ProjetoPOO/CadastroMotoboy.cs" bodystart="32" bodyend="59"/>
+        <location file="C:/POO/ProjetoPOO/CadastroMotoboy.cs" line="34" column="1" bodyfile="C:/POO/ProjetoPOO/CadastroMotoboy.cs" bodystart="34" bodyend="74"/>
+        <references refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1ada30823ffa8d582df7f11f49c13f676b" compoundref="_cadastro_motoboy_8cs" startline="16">ProjetoPOO.CadastroMotoboy.connection</references>
+        <references refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1a2aba5b3c21ccdc55794a97010ef3319d" compoundref="_cadastro_motoboy_8_designer_8cs" startline="289">ProjetoPOO.CadastroMotoboy.txtCel</references>
+        <references refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1aa342ed3767513ee2cfd0caa190cd9ca3" compoundref="_cadastro_motoboy_8_designer_8cs" startline="279">ProjetoPOO.CadastroMotoboy.txtCNH</references>
+        <references refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1a2c8c4f60c96dd31a1f5bfe0a2e00756a" compoundref="_cadastro_motoboy_8_designer_8cs" startline="281">ProjetoPOO.CadastroMotoboy.txtEmail</references>
+        <references refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1a870f9716c01fe582171d1e4da855b18b" compoundref="_cadastro_motoboy_8_designer_8cs" startline="277">ProjetoPOO.CadastroMotoboy.txtNome</references>
+        <references refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1a4988a2a4cdb45e31701cdea1a888710e" compoundref="_cadastro_motoboy_8_designer_8cs" startline="284">ProjetoPOO.CadastroMotoboy.txtNomeUser</references>
+        <references refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1a3ebf6ca1c6a3e2d476c9c4d969c20863" compoundref="_cadastro_motoboy_8_designer_8cs" startline="286">ProjetoPOO.CadastroMotoboy.txtSenha</references>
+        <references refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1abbd3c8c006ec2bd8b55ef9315be36422" compoundref="_cadastro_motoboy_8_designer_8cs" startline="280">ProjetoPOO.CadastroMotoboy.txtTel</references>
       </memberdef>
       <memberdef kind="function" id="class_projeto_p_o_o_1_1_cadastro_motoboy_1ac298c90e546cef27a334f91db3ae1e8a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -374,7 +403,7 @@
         </inbodydescription>
         <location file="C:/POO/ProjetoPOO/CadastroMotoboy.Designer.cs" line="29" column="1" bodyfile="C:/POO/ProjetoPOO/CadastroMotoboy.Designer.cs" bodystart="29" bodyend="266"/>
         <references refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1aa9591cab9b62752b0c4ae599f5c0cc7d" compoundref="_cadastro_motoboy_8_designer_8cs" startline="276">ProjetoPOO.CadastroMotoboy.pictureBox1</references>
-        <referencedby refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1aa7f2b45c739d9148962382293a56a0aa" compoundref="_cadastro_motoboy_8cs" startline="15" endline="18">ProjetoPOO.CadastroMotoboy.CadastroMotoboy</referencedby>
+        <referencedby refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1aa7f2b45c739d9148962382293a56a0aa" compoundref="_cadastro_motoboy_8cs" startline="17" endline="20">ProjetoPOO.CadastroMotoboy.CadastroMotoboy</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -447,7 +476,7 @@
         <label>System</label>
       </node>
     </collaborationgraph>
-    <location file="C:/POO/ProjetoPOO/CadastroMotoboy.cs" line="14" column="1" bodyfile="C:/POO/ProjetoPOO/CadastroMotoboy.cs" bodystart="13" bodyend="60"/>
+    <location file="C:/POO/ProjetoPOO/CadastroMotoboy.cs" line="15" column="1" bodyfile="C:/POO/ProjetoPOO/CadastroMotoboy.cs" bodystart="14" bodyend="75"/>
     <listofallmembers>
       <member refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1ad749aca5d4defc30c1c86cfef109b898" prot="private" virt="non-virtual"><scope>ProjetoPOO::CadastroMotoboy</scope><name>btnCadastrar</name></member>
       <member refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1abf7eaa45f3e506235ac707aee60217b7" prot="private" virt="non-virtual"><scope>ProjetoPOO::CadastroMotoboy</scope><name>BtnCadastrar_Click</name></member>
@@ -456,6 +485,7 @@
       <member refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1aa7f2b45c739d9148962382293a56a0aa" prot="public" virt="non-virtual"><scope>ProjetoPOO::CadastroMotoboy</scope><name>CadastroMotoboy</name></member>
       <member refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1a63c63507dc06cfdc144d5bf4937ef7a7" prot="private" virt="non-virtual"><scope>ProjetoPOO::CadastroMotoboy</scope><name>CadastroMotoboy_Load</name></member>
       <member refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1a04ebddbe01acca9389a45e2a3d80550b" prot="private" virt="non-virtual"><scope>ProjetoPOO::CadastroMotoboy</scope><name>components</name></member>
+      <member refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1ada30823ffa8d582df7f11f49c13f676b" prot="private" virt="non-virtual"><scope>ProjetoPOO::CadastroMotoboy</scope><name>connection</name></member>
       <member refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1ac2aeb30ab2b0cdc9d702aa378b1ebaea" prot="protected" virt="non-virtual"><scope>ProjetoPOO::CadastroMotoboy</scope><name>Dispose</name></member>
       <member refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1ac298c90e546cef27a334f91db3ae1e8a" prot="private" virt="non-virtual"><scope>ProjetoPOO::CadastroMotoboy</scope><name>InitializeComponent</name></member>
       <member refid="class_projeto_p_o_o_1_1_cadastro_motoboy_1a524c21ba0050ebf892149762e59d6c3a" prot="private" virt="non-virtual"><scope>ProjetoPOO::CadastroMotoboy</scope><name>label1</name></member>

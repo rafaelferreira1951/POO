@@ -53,12 +53,14 @@ namespace ProjetoPOO
                 txtEmail.Clear();
                 txtEndereco.Clear();
 
-                MySqlCommand inserir = new MySqlCommand("INSERT INTO cliente (email, login, senha, endereco, celular) VALUES (@email, @User, @Pass, @Ende, @cel ", connection);
-                inserir.Parameters.AddWithValue("@email", txtEmail);
-                inserir.Parameters.AddWithValue("@User", txtNomeUser);
-                inserir.Parameters.AddWithValue("@Pass", txtSenha);
-                inserir.Parameters.AddWithValue("@Ende", txtEndereco);
-                inserir.Parameters.AddWithValue("@cel", txtCel);
+                connection = Conexao.GetConnection();
+                connection.Open();
+                MySqlCommand inserir = new MySqlCommand("INSERT INTO cliente (email, usuario, senha, endereco, celular) VALUES (@email, @User, @Pass, @Ende, @cel) ", connection);
+                inserir.Parameters.AddWithValue("@email", email);
+                inserir.Parameters.AddWithValue("@User", nomeUsuario);
+                inserir.Parameters.AddWithValue("@Pass", senha);
+                inserir.Parameters.AddWithValue("@Ende", endereco);
+                inserir.Parameters.AddWithValue("@cel", cel);
                 inserir.ExecuteNonQuery();
                 principal.ShowDialog();
                 connection.Close();

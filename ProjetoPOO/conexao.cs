@@ -13,12 +13,9 @@ namespace ProjetoPOO
     {
         public static void Conectar()
         {
+
             string connStr = "server=localhost;user=root;database=poo;port=3306;password=";
             MySqlConnection connection = new MySqlConnection(connStr);
-
-            MySqlCommand comando = new MySqlCommand(insertQuery, connection);
-            comando.ExecuteNonQuery();
-
             try
             {
                 connection.Open();
@@ -30,6 +27,13 @@ namespace ProjetoPOO
                 MessageBox.Show("Ocorreu um erro ao conectar, por favor tente novamente!");
             }
 
+        }
+
+        public static MySqlConnection GetConnection()
+        {
+            string connStr = "server=localhost;user=root;database=poo;port=3306;password=";
+            MySqlConnection connection = new MySqlConnection(connStr);
+            return connection;
         }
     }
 }
