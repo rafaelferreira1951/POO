@@ -27,6 +27,7 @@ namespace ProjetoPOO
         {
             Corrida corrida = new Corrida();
             corrida.ShowDialog();
+           
         }
     }
 }

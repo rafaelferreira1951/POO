@@ -116,3 +116,5 @@ C:\Repositorio\POO\ProjetoPOO\obj\Debug\ProjetoPOO.csproj.CopyComplete
 C:\Repositorio\POO\ProjetoPOO\obj\Debug\ProjetoPOO.exe
 C:\Repositorio\POO\ProjetoPOO\obj\Debug\ProjetoPOO.pdb
 C:\Repositorio\POO\ProjetoPOO\obj\Debug\ProjetoPOO.Corrida.resources
+C:\Repositorio\POO\ProjetoPOO\obj\Debug\ProjetoPOO.corrida2.resources
+C:\Repositorio\POO\ProjetoPOO\obj\Debug\ProjetoPOO.TelaPagamento.resources
