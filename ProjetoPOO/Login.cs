@@ -34,14 +34,20 @@ namespace ProjetoPOO
             else
             {
                 MessageBox.Show("LOGADO COM SUCESSO");
-
-                connection = Conexao.GetConnection();
-                connection.Open();
-                MySqlCommand inserir = new MySqlCommand("INSERT INTO usuario (usuario, senha) VALUES (@User,@Pass)", connection);
-                inserir.Parameters.AddWithValue("@User", nomeUsuario);
-                inserir.Parameters.AddWithValue("@Pass", senha);
-                principal.ShowDialog();
-                connection.Clone();
+                try
+                {
+                    connection = Conexao.GetConnection();
+                    connection.Open();
+                    MySqlCommand select = new MySqlCommand("SELECT * FROM cliente WHERE usuario= '" + nomeUsuario + "'", connection);
+                    select.ExecuteNonQuery();
+                    principal.ShowDialog();
+                    connection.Clone();
+                }
+                catch(Exception erro) 
+                {
+                    MessageBox.Show("Houve um erro ao logar!!"  + erro);
+                }
+             
             }
         }
 
@@ -63,6 +69,14 @@ namespace ProjetoPOO
         private void Login_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void logarcomo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //if (logarcomo_SelectedIndexChanged == )
+            //{
+
+            //}
         }
     }
 }

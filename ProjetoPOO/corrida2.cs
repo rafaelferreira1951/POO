@@ -17,8 +17,7 @@ namespace ProjetoPOO
         public corrida2()
         {
             InitializeComponent();
-            Corrida corrida = new Corrida();
-            lblNomeMotoboy.Text = corrida.motoboys[corrida.txtListaMotoboys.SelectedIndex];
+            //Corrida corrida = new Corrida();
         }
 
        
