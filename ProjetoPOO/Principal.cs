@@ -25,8 +25,9 @@ namespace ProjetoPOO
 
         private void ChatToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Corrida corrida = new Corrida();
-            corrida.ShowDialog();
+            Corrida c = new Corrida();
+            c.Show();
+            this.Hide();
            
         }
     }

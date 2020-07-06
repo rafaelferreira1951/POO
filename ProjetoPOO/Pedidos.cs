@@ -10,20 +10,11 @@ using System.Windows.Forms;
 
 namespace ProjetoPOO
 {
-    public partial class corrida2 : Form
+    public partial class Pedidos : Form
     {
-        
-        
-        public corrida2()
+        public Pedidos()
         {
             InitializeComponent();
-            //Corrida corrida = new Corrida();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-
         }
     }
 }

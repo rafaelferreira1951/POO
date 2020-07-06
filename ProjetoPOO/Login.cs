@@ -21,33 +21,61 @@ namespace ProjetoPOO
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            Principal principal = new Principal();
-
-            String nomeUsuario = txtNomeUser.Text;
+            String nome = txtNomeUser.Text;
             String senha = txtSenha.Text;
-            if (nomeUsuario == "" || senha == "")
+            String tipo = logarcomo.Text;
+
+            if (nome == "" || senha == "" || tipo == "")
             {
                 MessageBox.Show("Por favor preencha todos os Campos!");
                 txtNomeUser.Focus();
-                return;
             }
             else
             {
-                MessageBox.Show("LOGADO COM SUCESSO");
-                try
+                if (tipo.Equals("Cliente"))
                 {
-                    connection = Conexao.GetConnection();
-                    connection.Open();
-                    MySqlCommand select = new MySqlCommand("SELECT * FROM cliente WHERE usuario= '" + nomeUsuario + "'", connection);
-                    select.ExecuteNonQuery();
-                    principal.ShowDialog();
-                    connection.Clone();
+                    Principal principal = new Principal();
+
+                    cliente client = new cliente();
+
+                    if (client.Login(nome, senha))
+                    {
+
+                        MessageBox.Show("CLIENTE: LOGADO COM SUCESSO");
+                        Principal p = new Principal();
+                        p.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Houve um erro ao logar!!");
+                    }
                 }
-                catch(Exception erro) 
+                else if (tipo.Equals("MotoBoy"))
                 {
-                    MessageBox.Show("Houve um erro ao logar!!"  + erro);
+                    TelaMotoboy tlmotoboy = new TelaMotoboy();
+
+                    motoboy mot = new motoboy();
+
+                    if (mot.Login(nome, senha))
+                    {
+
+                        MessageBox.Show("MOTOBOY: LOGADO COM SUCESSO");
+                        //TelaMotoboy tlmotoboy = new TelaMotoboy();
+                        tlmotoboy.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Houve um erro ao logar!!");
+                    }
                 }
-             
+                else
+                {
+                    MessageBox.Show("Verifique o tipo de conta");
+                }
+               
+
             }
         }
 

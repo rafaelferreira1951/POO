@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,20 +10,11 @@ using System.Windows.Forms;
 
 namespace ProjetoPOO
 {
-    public partial class corrida2 : Form
+    public partial class PedidosCliente : UserControl
     {
-        
-        
-        public corrida2()
+        public PedidosCliente()
         {
             InitializeComponent();
-            //Corrida corrida = new Corrida();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-
         }
     }
 }
