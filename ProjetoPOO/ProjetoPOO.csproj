@@ -188,6 +188,7 @@
     <Compile Include="Chamar Motoboy.Designer.cs">
       <DependentUpon>Chamar Motoboy.cs</DependentUpon>
     </Compile>
+    <Compile Include="classCorrida.cs" />
     <Compile Include="cliente.cs" />
     <Compile Include="conexao.cs" />
     <Compile Include="corrida2.cs">

@@ -19,21 +19,29 @@ namespace ProjetoPOO
         MySqlDataReader dr;
         string serSQL;
 
+        motoboy mot = new motoboy();
+        List<motoboy> motoboys;
+
         private MySqlConnection connection;
         //public List<string> motoboys = new List<string>();
         public Corrida()
         {
             InitializeComponent();
+            motoboys = mot.Listar();
         }
 
         private void Button1_Click_1(object sender, EventArgs e)
         {
-            corrida2 corrida2 = new corrida2();
+            motoboy boy = new motoboy();
+            boy = motoboys[listBox1.SelectedIndex];
+         
+            corrida2 corrida2 = new corrida2(boy.Cnh, boy.Nome);
             corrida2.ShowDialog();
 
           
 
             motoboy mot = new motoboy();
+        
 
         }
 
@@ -46,9 +54,6 @@ namespace ProjetoPOO
         private void Corrida_Load(object sender, EventArgs e)
         {
 
-            motoboy mot = new motoboy();
-            List<motoboy> motoboys = mot.Listar();
-
             foreach (var item in motoboys)
             {
                 listBox1.Items.Add(item.Nome);
@@ -56,5 +61,11 @@ namespace ProjetoPOO
          
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Principal b = new Principal();
+            b.Show();
+            this.Hide();
+        }
     }
    }

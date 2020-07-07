@@ -46,7 +46,7 @@ namespace ProjetoPOO
             {
                 conexao = new MySqlConnection("Server=localhost;Database=poo;Uid=root;Pwd=;");
 
-                string strSQL = "SELECT * FROM mototaxi";
+                string strSQL = "SELECT * FROM motoboy";
 
                 comando = new MySqlCommand(strSQL, conexao);
 
@@ -95,7 +95,7 @@ namespace ProjetoPOO
             {
                 conexao = new MySqlConnection("Server=localhost;Database=poo;Uid=root;Pwd=;");
 
-                string strSQL = "SELECT * FROM mototaxi WHERE usuario = @nome AND senha = @senha";
+                string strSQL = "SELECT * FROM motoboy WHERE usuario = @nome AND senha = @senha";
 
                 comando = new MySqlCommand(strSQL, conexao);
 
@@ -119,6 +119,56 @@ namespace ProjetoPOO
             return false;
 
         }
+
+        public motoboy selectCNH(string cnh)
+        {
+            MySqlConnection conexao;
+            MySqlCommand comando;
+            MySqlDataAdapter da;
+            MySqlDataReader dr;
+            string serSQL;
+
+
+            try
+            {
+                conexao = new MySqlConnection("Server=localhost;Database=poo;Uid=root;Pwd=;");
+
+                string strSQL = "SELECT * FROM motoboy WHERE cnh = @cnh";
+
+
+                comando = new MySqlCommand(strSQL, conexao);
+                comando.Parameters.AddWithValue("@cnh", cnh);
+
+                conexao.Open();
+
+                dr = comando.ExecuteReader();
+
+                while (dr.Read())
+                {
+                    // rg usuario senha nome cnh email telefone celular
+                    motoboy mot = new motoboy();
+                    mot.rg = dr["rg"] + "";
+                    mot.Usuario = dr["usuario"] + "";
+                    mot.Senha = dr["senha"] + "";
+                    mot.Nome = dr["nome"] + "";
+                    mot.Cnh = dr["cnh"] + "";
+                    mot.Email = dr["email"] + "";
+                    mot.Telefone = dr["telefone"] + "";
+                    conexao.Close();
+                    return mot;
+                }             
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+
+            return null;
+
+
+        }
+
+
     }
 
     

@@ -22,6 +22,49 @@ namespace ProjetoPOO
         public string Senha { get => senha; set => senha = value; }
         public string Celular { get => celular; set => celular = value; }
 
+        public cliente select(string nome, string senha)
+        {
+            MySqlConnection conexao;
+            MySqlCommand comando;
+            MySqlDataAdapter da;
+            MySqlDataReader dr;
+            string serSQL;
+
+            try
+            {
+                conexao = new MySqlConnection("Server=localhost;Database=poo;Uid=root;Pwd=;");
+
+                string strSQL = "SELECT * FROM cliente WHERE usuario = @nome AND senha = @senha";
+
+                comando = new MySqlCommand(strSQL, conexao);
+
+                comando.Parameters.AddWithValue("@nome", nome);
+                comando.Parameters.AddWithValue("@senha", senha);
+                conexao.Open();
+
+                dr = comando.ExecuteReader();
+
+                while (dr.Read())
+                {
+                    //usuario,endereco,email,senha,celular;
+                    cliente cc = new cliente();
+
+                    cc.Usuario = dr["usuario"] + "";
+                    cc.Endereco = dr["endereco"] + "";
+                    cc.Email = dr["email"] + "";
+                    cc.Senha = dr["senha"] + "";
+                    cc.Celular = dr["celular"] + "";
+                    return cc;
+                }
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+
+            return null;
+        }
+
         public bool Login(string nome, string senha)
         {
             MySqlConnection conexao;

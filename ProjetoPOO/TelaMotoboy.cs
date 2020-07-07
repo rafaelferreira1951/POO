@@ -28,5 +28,55 @@ namespace ProjetoPOO
             pedidos.Show();
             this.Hide();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+            
+        }
+
+        private void panel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void TelaMotoboy_Load(object sender, EventArgs e)
+        {
+           
+            List<classCorrida> corridas;
+
+
+            motoboy mot = new motoboy();
+
+            panel1.Controls.Clear();
+            int ii = 0;
+            int yy = 5;
+
+            string cnh = "";
+
+            foreach (var item in mot.Listar())
+            {
+                if (item.Usuario.Equals(Session.Nome) && item.Senha.Equals(Session.Senha))
+                {
+                    cnh = item.Cnh;
+                    break;
+                }
+            }
+
+
+            classCorrida corri = new classCorrida();
+            corridas = corri.select(cnh);
+
+            foreach (var item in corridas)
+            {
+                PedidosCliente a = new PedidosCliente(item.Id);
+                a.Location = new Point(6, (yy));
+                yy = yy + a.Height + 5;
+                panel1.Controls.Add(a);
+                ii++;
+            }
+            
+            
+            
+        }
     }
 }

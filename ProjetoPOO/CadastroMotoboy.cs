@@ -53,7 +53,7 @@ namespace ProjetoPOO
 
                 connection = Conexao.GetConnection();
                 connection.Open();
-                MySqlCommand inserir = new MySqlCommand("INSERT INTO mototaxi (email, usuario, senha, rg, cnh, telefone, celular, nome) VALUES (@email, @User, @Pass, @rg, @cnh, @tel, @cel, @nome) ", connection);
+                MySqlCommand inserir = new MySqlCommand("INSERT INTO motoboy (email, usuario, senha, rg, cnh, telefone, celular, nome) VALUES (@email, @User, @Pass, @rg, @cnh, @tel, @cel, @nome) ", connection);
                 inserir.Parameters.AddWithValue("@email", email);
                 inserir.Parameters.AddWithValue("@User", nomeUsuario);
                 inserir.Parameters.AddWithValue("@Pass", senha);
