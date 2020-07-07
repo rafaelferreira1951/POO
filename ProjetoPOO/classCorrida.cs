@@ -206,6 +206,65 @@ namespace ProjetoPOO
             return null;
         }
 
+        public bool statusUpdate(string id, string status, string valor)
+        {
+            try
+            {
+                conexao = new MySqlConnection("Server=localhost;Database=poo;Uid=root;Pwd=;");
+
+                string strSQL = "UPDATE corrida SET status = @status, valor = @valor WHERE id = @id";
+
+                comando = new MySqlCommand(strSQL, conexao);
+
+                comando.Parameters.AddWithValue("@id", id);
+                comando.Parameters.AddWithValue("@status", status);
+                comando.Parameters.AddWithValue("@valor", valor);
+
+                conexao.Open();
+
+                comando.ExecuteNonQuery();
+                conexao.Close();
+
+                conexao = null;
+                comando = null;
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+                throw;
+            }
+           
+        }
+
+        public bool deleteID(string id)
+        {
+            try
+            {
+                conexao = new MySqlConnection("Server=localhost;Database=poo;Uid=root;Pwd=;");
+
+                string strSQL = "DELETE FROM corrida WHERE id = @id";
+
+                comando = new MySqlCommand(strSQL, conexao);
+
+                comando.Parameters.AddWithValue("@id", id);
+
+                conexao.Open();
+
+                comando.ExecuteNonQuery();
+                conexao.Close();
+                conexao = null;
+                comando = null;
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+                throw;
+            }
+           
+        }
+
 
     }
 }

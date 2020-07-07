@@ -111,6 +111,7 @@
             this.Rejeitar.TabIndex = 5;
             this.Rejeitar.Text = "Rejeitar";
             this.Rejeitar.UseVisualStyleBackColor = false;
+            this.Rejeitar.Click += new System.EventHandler(this.Rejeitar_Click);
             // 
             // txtcliente
             // 

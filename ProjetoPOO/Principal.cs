@@ -12,6 +12,8 @@ namespace ProjetoPOO
 {
     public partial class Principal : Form
     {
+        classCorrida corri;
+
         public Principal()
         {
             InitializeComponent();
@@ -44,11 +46,12 @@ namespace ProjetoPOO
         private void Principal_Load(object sender, EventArgs e)
         {
      
-            classCorrida corri = new classCorrida().selectCliente(new cliente().select(Session.Nome, Session.Senha).Email);
+            corri = new classCorrida().selectCliente(new cliente().select(Session.Nome, Session.Senha).Email);
 
             if (corri == null)
             {
                 panel1.Visible = false;
+                chatToolStripMenuItem.Enabled = true;
             }
             else
             {
@@ -58,9 +61,15 @@ namespace ProjetoPOO
                 label6.Text = corri.Destino;
                 corrida.Text = corri.Valor;
                 status.Text = corri.Status;
+                chatToolStripMenuItem.Enabled = false;
             }
 
           
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            corri.deleteID(corri.Id);
         }
     }
 }

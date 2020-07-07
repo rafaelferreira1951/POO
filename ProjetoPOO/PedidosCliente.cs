@@ -46,7 +46,39 @@ namespace ProjetoPOO
 
         private void confirmar_Click(object sender, EventArgs e)
         {
+            classCorrida c = new classCorrida();
 
+            bool foi = false;
+            
+            foi = c.statusUpdate(corri.Id, "Confirmado", textBox1.Text);
+
+            if (foi)
+            {
+                MessageBox.Show("OK");
+            }
+            else
+            {
+                MessageBox.Show("NO");
+            }
+           
+        }
+
+        private void Rejeitar_Click(object sender, EventArgs e)
+        {
+            classCorrida c = new classCorrida();
+
+            bool foi = false;
+
+            foi = c.statusUpdate(corri.Id, "Rejeitado", textBox1.Text);
+
+            if (foi)
+            {
+                MessageBox.Show("OK");
+            }
+            else
+            {
+                MessageBox.Show("NO");
+            }
         }
     }
 }
