@@ -34,9 +34,15 @@ namespace ProjetoPOO
         {
             motoboy boy = new motoboy();
             boy = motoboys[listBox1.SelectedIndex];
-         
+
+
             corrida2 corrida2 = new corrida2(boy.Cnh, boy.Nome);
-            corrida2.ShowDialog();
+            corrida2.Show();
+            this.Hide();
+
+
+            
+            
 
           
 

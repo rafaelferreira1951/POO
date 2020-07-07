@@ -101,9 +101,9 @@
             // btnEntrar
             // 
             this.btnEntrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEntrar.Location = new System.Drawing.Point(563, 263);
+            this.btnEntrar.Location = new System.Drawing.Point(435, 263);
             this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(75, 23);
+            this.btnEntrar.Size = new System.Drawing.Size(203, 29);
             this.btnEntrar.TabIndex = 7;
             this.btnEntrar.Text = "Entrar";
             this.btnEntrar.UseVisualStyleBackColor = true;
@@ -113,9 +113,10 @@
             // 
             this.button3.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(97, 323);
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(125, 344);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(200, 23);
+            this.button3.Size = new System.Drawing.Size(198, 30);
             this.button3.TabIndex = 8;
             this.button3.Text = "Criar Conta de Usuário";
             this.button3.UseVisualStyleBackColor = false;
@@ -125,9 +126,10 @@
             // 
             this.button4.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(437, 321);
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(440, 344);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(200, 23);
+            this.button4.Size = new System.Drawing.Size(198, 30);
             this.button4.TabIndex = 9;
             this.button4.Text = "Criar Conta de Motoboy";
             this.button4.UseVisualStyleBackColor = false;

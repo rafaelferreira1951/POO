@@ -78,5 +78,13 @@ namespace ProjetoPOO
             
             
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Login v = new Login();
+            v.Show();
+            this.Close();
+            Session.Deslogar();
+        }
     }
 }

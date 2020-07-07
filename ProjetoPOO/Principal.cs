@@ -28,7 +28,7 @@ namespace ProjetoPOO
         private void ChatToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Corrida c = new Corrida();
-            c.Show();
+            c.ShowDialog();
             this.Hide();
            
         }
@@ -70,6 +70,17 @@ namespace ProjetoPOO
         private void button2_Click(object sender, EventArgs e)
         {
             corri.deleteID(corri.Id);
+            panel1.Visible = false;
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Login p = new Login();
+            p.Show();
+            Session.Deslogar();
+            this.Close();
+
         }
     }
 }

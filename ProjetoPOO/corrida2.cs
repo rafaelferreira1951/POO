@@ -62,5 +62,14 @@ namespace ProjetoPOO
             v.Show();
             this.Close();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Principal tl = new Principal();
+            tl.Show();
+            Session.Deslogar();
+            this.Close();
+            
+        }
     }
 }
