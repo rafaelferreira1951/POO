@@ -33,7 +33,7 @@ namespace ProjetoPOO
 
         private void BtnCadastrar_Click(object sender, EventArgs e)
         {
-            Principal principal = new Principal();
+            TelaMotoboy tmb= new TelaMotoboy();
             String nome = txtNome.Text;
             String nomeUsuario = txtNomeUser.Text;
             String senha = txtSenha.Text;
@@ -63,7 +63,9 @@ namespace ProjetoPOO
                 inserir.Parameters.AddWithValue("@cel", cel);
                 inserir.Parameters.AddWithValue("@nome", nome);
                 inserir.ExecuteNonQuery();
-                principal.ShowDialog();
+                Session.Logar(nomeUsuario, senha, "Motoboy");
+                this.Hide();
+                tmb.ShowDialog();
                 connection.Close();
             }
         }

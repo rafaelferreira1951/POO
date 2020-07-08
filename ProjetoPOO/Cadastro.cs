@@ -34,6 +34,7 @@ namespace ProjetoPOO
         private void Button2_Click(object sender, EventArgs e)
         {
 
+            
             Principal principal = new Principal();
             String endereco = txtEndereco.Text;
             String nomeUsuario = txtNomeUser.Text;
@@ -58,6 +59,8 @@ namespace ProjetoPOO
                 inserir.Parameters.AddWithValue("@Ende", endereco);
                 inserir.Parameters.AddWithValue("@cel", cel);
                 inserir.ExecuteNonQuery();
+                Session.Logar(nomeUsuario, senha, "Cliente");
+                this.Hide();
                 principal.ShowDialog();
                 connection.Close();
             }

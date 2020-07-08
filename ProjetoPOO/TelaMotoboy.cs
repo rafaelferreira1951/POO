@@ -83,7 +83,7 @@ namespace ProjetoPOO
         {
             Login v = new Login();
             v.Show();
-            this.Close();
+            this.Hide();
             Session.Deslogar();
         }
     }

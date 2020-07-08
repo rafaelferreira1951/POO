@@ -48,6 +48,7 @@ namespace ProjetoPOO
      
             corri = new classCorrida().selectCliente(new cliente().select(Session.Nome, Session.Senha).Email);
 
+            
             if (corri == null)
             {
                 panel1.Visible = false;
@@ -62,6 +63,7 @@ namespace ProjetoPOO
                 corrida.Text = corri.Valor;
                 status.Text = corri.Status;
                 chatToolStripMenuItem.Enabled = false;
+                
             }
 
           

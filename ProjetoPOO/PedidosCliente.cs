@@ -54,11 +54,11 @@ namespace ProjetoPOO
 
             if (foi)
             {
-                MessageBox.Show("OK");
+                MessageBox.Show("Solicitação Aceita");
             }
             else
             {
-                MessageBox.Show("NO");
+                MessageBox.Show("Solicitação Recusada");
             }
            
         }
